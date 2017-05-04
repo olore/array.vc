@@ -3,18 +3,16 @@
   <div>
     <main>
 
-      <h1 class="logo">
+      <header>
         <img align="center" src="../../static/img/arrayvcsimplelogo.png" alt="Array Ventures" />
-      </h1>
-
-      <slot name="nav">
         <navigation :page="page"></navigation>
-      </slot>
+      </header>
+
       <slot name="content"></slot>
     </main>
 
-    <footer>
-      <slot name="footer"></slot>
+    <footer class="x-container">
+      <div class="asides clearfix"> </div>
     </footer>
 
   </div>
@@ -39,4 +37,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  header {
+    text-align: center;
+  }
 </style>
