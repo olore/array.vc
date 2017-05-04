@@ -1,25 +1,30 @@
 <template>
-  <section class="module content">
+  <index page="team">
 
-    <div class="grid">
+    <section slot="content" class="module content">
 
-      <person v-for="person in people"
-              :person="person"
-              :name="person.name"
-              :key="person.name"></person>
+      <div class="grid">
 
-    </div>
+        <person v-for="person in people"
+                :person="person"
+                :name="person.name"
+                :key="person.name"></person>
 
-  </section>
+      </div>
+
+    </section>
+  </index>
 </template>
 
 <script>
 import Person from './Person';
+import Index from './Index';
 
 export default {
   name: 'team',
   components: {
     person: Person,
+    index: Index,
   },
 
   data() {

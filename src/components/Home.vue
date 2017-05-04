@@ -1,19 +1,7 @@
 <template>
+  <index page="home">
 
-  <div class="wrapper">
-    <main>
-
-      <h1 class="logo"><img align="center" src="../../static/img/arrayvcsimplelogo.png" alt="Array Ventures" /></h1>
-
-      <section class="nav">
-        <a href="investments.html">[ INVESTMENTS ]</a>
-        <a href="array-podcasts.html">[ ARRAY PODCAST ]</a>
-        <br />
-        <a href="team.html">[ TEAM ]</a>
-      </section>
-
-
-
+    <div slot="content">
       <section class="module parallax parallax-1">
         <div class="x-container">
           <h1>Mission</h1>
@@ -95,24 +83,25 @@
         </div>
       </section>
 
+    </div>
 
-    </main><!-- /main -->
-
-    <footer>
-      <div class="x-container">
+      <div slot="footer" class="x-container">
         <div class="asides clearfix">
         </div>
       </div>
-    </footer><!-- /footer -->
 
-  </div><!-- /#wrapper -->
+  </index>
 
 </template>
 
 <script>
+import Index from './Index';
 
 export default {
   name: 'hello',
+  components: {
+    index: Index,
+  },
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
