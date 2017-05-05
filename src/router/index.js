@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '@/components/Home';
 import Team from '@/components/Team';
 import Investments from '@/components/Investments';
+import PodCasts from '@/components/Podcasts';
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ const router = new Router({
       path: '/investments',
       name: 'Investments',
       component: Investments,
+    },
+    {
+      path: '/podcasts',
+      name: 'podcasts',
+      component: PodCasts,
     },
   ],
 });
