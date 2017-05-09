@@ -1,10 +1,13 @@
 <template>
   <index page="investments">
-    <section slot="content" class="module content">
-      <div class="x-container">
-        <h2>Our investments</h2>
+    <section slot="content" class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Our investments</h2>
+          </div>
+        </div>
 
-        <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="logo-wrapper">

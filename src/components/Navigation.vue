@@ -23,6 +23,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .nav {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Nixie One', "Helvetica Neue";
+  margin-bottom: 10px;
+}
+
+a {
+  white-space: nowrap;
 }
 </style>

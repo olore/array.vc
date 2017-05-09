@@ -1,7 +1,13 @@
 <template>
   <index page="team">
 
-    <section slot="content" class="module container">
+    <section slot="content" class="container">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Our Team</h2>
+        </div>
+      </div>
 
       <div class="row">
           <person class="col-xs-12 col-sm-3"
