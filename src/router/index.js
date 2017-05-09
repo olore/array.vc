@@ -53,7 +53,7 @@ const router = new Router({
 });
 
 router.afterEach((to) => {
-  window.ga('send', 'pageview', to.path);
+  window.ga('send', 'pageview', `#${to.path}`);
 });
 
 export default router;
