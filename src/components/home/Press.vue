@@ -9,7 +9,7 @@
     <section class="module content">
       <div class="x-container">
         <h2>Our communications</h2>
-        <ul style="list-style-type: none;">
+        <ul>
           <li><a href="http://eepurl.com/b9t7c1">Newsletter #4</a> - Welcome Openprise &amp; 6D Bytes!</li>
           <li><a href="http://eepurl.com/bA_otr">Newsletter #3</a> - Welcome Simplicity, Shotput &amp; Take 44!</li>
           <li><a href="http://eepurl.com/bqvbgT">Newsletter #2</a> - Welcome Mobilize!</li>
@@ -65,4 +65,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  ul {
+    list-style-type: none;
+  }
+  li {
+
+  }
+
+  @media only screen
+  and (max-device-width : 414px)
+  and (orientation : portrait) {
+    ul {
+      padding-left: 0;
+    }
+
+  }
 </style>
