@@ -42,14 +42,14 @@ export default {
         {
           name: 'Shruti Gandhi',
           title: 'Managing Partner',
-          href: '/#/team/shruti',
+          href: '#/team/shruti',
           // eslint-disable-next-line
           getImage: () => require(`../assets/img/shruti.jpg`),
         },
         {
           name: 'Lucas Baker',
           title: 'Technology Partner',
-          href: '/#/team/lucas',
+          href: '#/team/lucas',
           // eslint-disable-next-line
           getImage: () => require(`../assets/img/lucas.jpg`),
         },
