@@ -1,20 +1,22 @@
 <template>
-  <div class="person">
-    <a :href="person.href">
-      <div class="overlay">
-        <h4>{{ person.name }}</h4>
-        <h5>{{ person.title }}</h5>
-      </div>
-      <img height="200" width="200" :src="person.getImage()" alt="photo" />
-    </a>
-  </div>
+  <div>
+    <div class="person">
+      <a :href="person.href">
+        <div class="overlay">
+          <h4>{{ person.name }}</h4>
+          <h5>{{ person.title }}</h5>
+        </div>
+        <img height="200" width="200" :src="person.getImage()" alt="photo" />
+      </a>
+    </div>
 
+  </div>
 </template>
 
 <script>
 export default {
   name: 'person',
-  props: ['person'],
+  props: ['person', 'selected'],
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
@@ -29,7 +31,7 @@ export default {
   .overlay {
     position: absolute;
     bottom: 10px;
-    left: 0;
+    left: 10px;
     right: 0;
     color: white;
     font-size: 20px;
@@ -62,9 +64,9 @@ export default {
       text-align: center;
     }
     .overlay {
-      font-size: 30px;
+      font-size: 20px;
+      left: 10px;
       font-weight: 400;
-      width: 280px;
     }
   }
 

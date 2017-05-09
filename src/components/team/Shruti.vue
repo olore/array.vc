@@ -1,0 +1,60 @@
+<template>
+  <index>
+    <div slot="content" class="container svg">
+      <h2>Shruti Gandhi</h2>
+      <div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 photo">
+            <img height="200" src="../../assets/img/shruti.jpg" alt="Shruti"/>
+          </div>
+
+          <div class="col-xs-12 col-sm-8 content">
+            Shruti is a managing partner at Array Ventures.
+            Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage
+            venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners,
+            and the i2A Fund.
+            <br/> <br/>
+            Shruti started working with Machine Learning algorithms while working on her master's thesis
+            in computer science from Columbia University on understanding user behavior on instant messaging
+            platforms. While at IBM she worked on self learning algorithms that detected user location based on
+            IP addresses, which she later incorporated into the Lotus Sametime product. Later, her company Penseev
+            helped users make better connections with their friends based on social data.
+            <br/> <br/>
+            When not investing, she is hacking on some app or thinking about ways she can be in many places
+            at one time. Shruti also has an MBA from the University of Chicago, where she polished her finance
+            skills before making the switch from engineer/founder to investor.
+            <br/> <br/>
+
+
+            <a class="webicon linkedin large" href="https://www.linkedin.com/in/shrutigandhi">LinkedIn</a>
+            <a class="webicon twitter large" href="https://twitter.com/atShruti">Twitter</a>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </index>
+</template>
+
+<script>
+  import Index from '../Index';
+
+  export default {
+    name: 'shruti',
+    components: {
+      index: Index,
+    },
+  };
+</script>
+
+<style scoped>
+  .photo {
+    text-align: center;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+</style>

@@ -5,12 +5,18 @@
         <a href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
       </div>
 
+      <!--
       <section v-for="p in podcasts" class="module content">
         <div class="x-container">
           <span class="member">{{p.title}}</span>
           <iframe width="100%" height="166" scrolling="no" frameborder="no" :src="p.src"></iframe>
         </div>
       </section>
+      -->
+
+      <div style="text-align: center;padding-top:20px">
+        <iframe width="500" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/292786905&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
 
     </section>
   </index>

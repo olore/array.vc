@@ -4,6 +4,9 @@ import Home from '@/components/Home';
 import Team from '@/components/Team';
 import Investments from '@/components/Investments';
 import PodCasts from '@/components/Podcasts';
+import Shruti from '@/components/team/Shruti';
+import Lucas from '@/components/team/Lucas';
+import Joseph from '@/components/team/Joseph';
 
 Vue.use(Router);
 
@@ -28,6 +31,23 @@ const router = new Router({
       path: '/podcasts',
       name: 'podcasts',
       component: PodCasts,
+    },
+
+    // team
+    {
+      path: '/team/shruti',
+      name: 'shruti',
+      component: Shruti,
+    },
+    {
+      path: '/team/joseph',
+      name: 'joseph',
+      component: Joseph,
+    },
+    {
+      path: '/team/lucas',
+      name: 'lucas',
+      component: Lucas,
     },
   ],
 });
