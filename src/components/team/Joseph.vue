@@ -7,7 +7,7 @@
       <div class="row">
 
         <div class="col-xs-12 col-sm-4 photo">
-          <img height="200" src="../../../static/img/people/joe-circle-280.png" alt="Joseph Davidson"/>
+          <img height="200" src="../../../static/img/people/joseph-circle-280.png" alt="Joseph Davidson"/>
         </div>
 
         <div class="col-xs-12 col-sm-8 content">

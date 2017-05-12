@@ -16,7 +16,7 @@
       </div>
 
       <div class="row">
-          <person class="col-xs-12 col-sm-3"
+          <person class="col-xs-12 col-sm-3 col-md-2"
                   v-for="person in people"
                   :person="person"
                   :selected="selectPerson"
@@ -48,8 +48,7 @@ export default {
         {
           name: 'Lucas Baker',
           title: 'Technology Partner',
-          href: '#/team/lucas',
-          img: './static/img/people/lucas-circle-280.png',
+          id: 'lucas',
         },
       ],
     };

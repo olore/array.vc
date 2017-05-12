@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="person">
-      <a :href="person.href">
-        <img :src="person.img" alt="photo" />
+      <a :href="`#/team/${person.id}`">
+        <img :src="`./static/img/people/${person.id}-circle-280.png`" :alt="`${person.id} photo`" />
         <h4>{{ person.name }}</h4>
         <h5>{{ person.title }}</h5>
       </a>
@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'person',
-  props: ['person', 'selected'],
+  props: ['person'],
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
@@ -26,18 +26,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .overlay {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    right: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-  }
-
   img {
-    width: 90%;
+    width: 150px;
     text-align: center;
   }
 
@@ -65,10 +55,8 @@ export default {
   @media only screen
   and (max-device-width : 375px)
   and (orientation : portrait) {
-    .overlay {
-      font-size: 20px;
-      left: 10px;
-      font-weight: 400;
+    img {
+      width: 180px;
     }
   }
 

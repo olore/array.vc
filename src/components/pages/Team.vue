@@ -16,7 +16,7 @@
       </div>
 
       <div class="row">
-          <person class="col-xs-12 col-sm-3"
+          <person class="col-xs-12 col-sm-3 col-md-2"
                   v-for="person in people"
                   :person="person"
                   :selected="selectPerson"
@@ -48,14 +48,12 @@ export default {
         {
           name: 'Shruti Gandhi',
           title: 'Managing Partner',
-          href: '#/team/shruti',
-          img: './static/img/people/shruti-circle-280.png',
+          id: 'shruti',
         },
         {
           name: 'Joseph Davidson',
           title: 'Analyst',
-          href: '#/team/joseph',
-          img: './static/img/people/joe-circle-280.png',
+          id: 'joseph',
         },
       ],
     };
