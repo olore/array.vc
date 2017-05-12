@@ -1,5 +1,5 @@
 <template>
-  <index>
+  <page>
     <div slot="content" class="container svg">
 
       <h2>Joseph Davidson</h2>
@@ -7,7 +7,7 @@
       <div class="row">
 
         <div class="col-xs-12 col-sm-4 photo">
-          <img height="200" src="../../assets/img/joe.jpg" alt="Joseph Davidson"/>
+          <img height="200" src="../../../static/img/people/joe-circle-280.png" alt="Joseph Davidson"/>
         </div>
 
         <div class="col-xs-12 col-sm-8 content">
@@ -19,16 +19,16 @@
         </div>
       </div>
     </div>
-  </index>
+  </page>
 </template>
 
 <script>
-import Index from '../Index';
+import Page from '../Page';
 
 export default {
   name: 'joseph',
   components: {
-    index: Index,
+    page: Page,
   },
 };
 </script>

@@ -1,15 +1,15 @@
 <template>
-  <index page="home">
+  <page page="home">
     <div slot="content">
       <mission></mission>
       <disruption></disruption>
       <press></press>
     </div>
-  </index>
+  </page>
 </template>
 
 <script>
-import Index from './Index';
+import Page from '../Page';
 import Press from './home/Press';
 import Disruption from './home/Disruption';
 import Mission from './home/Mission';
@@ -17,7 +17,7 @@ import Mission from './home/Mission';
 export default {
   name: 'home',
   components: {
-    index: Index,
+    page: Page,
     press: Press,
     mission: Mission,
     disruption: Disruption,

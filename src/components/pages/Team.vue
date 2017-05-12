@@ -1,11 +1,17 @@
 <template>
-  <index page="team">
+  <page page="team">
 
     <section slot="content" class="container">
 
       <div class="row">
         <div class="col-xs-12">
           <h2>Our Team</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 subnav">
+          <h2>Tech | <a href="#/advisors">Advisors</a></h2>
         </div>
       </div>
 
@@ -18,18 +24,18 @@
       </div>
 
     </section>
-  </index>
+  </page>
 </template>
 
 <script>
-import Person from './Person';
-import Index from './Index';
+import Person from '../Person';
+import Page from '../Page';
 
 export default {
   name: 'team',
   components: {
     person: Person,
-    index: Index,
+    page: Page,
   },
 
   data() {
@@ -43,22 +49,13 @@ export default {
           name: 'Shruti Gandhi',
           title: 'Managing Partner',
           href: '#/team/shruti',
-          // eslint-disable-next-line
-          getImage: () => require(`../assets/img/shruti.jpg`),
-        },
-        {
-          name: 'Lucas Baker',
-          title: 'Technology Partner',
-          href: '#/team/lucas',
-          // eslint-disable-next-line
-          getImage: () => require(`../assets/img/lucas.jpg`),
+          img: './static/img/people/shruti-circle-280.png',
         },
         {
           name: 'Joseph Davidson',
           title: 'Analyst',
           href: '#/team/joseph',
-          // eslint-disable-next-line
-          getImage: () => require(`../assets/img/joe.jpg`),
+          img: './static/img/people/joe-circle-280.png',
         },
       ],
     };
@@ -69,5 +66,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .subnav {
+    text-align: center;
+  }
+  .subnav h2 {
+    margin-top: 0;
+  }
 </style>
 

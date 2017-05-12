@@ -1,5 +1,5 @@
 <template>
-  <index page="investments">
+  <page page="investments">
     <section slot="content" class="content">
       <div class="container">
         <div class="row">
@@ -11,109 +11,108 @@
           <div class="row">
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://rupertbot.com"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/rupert.png"/> </a>
+                <a href="http://rupertbot.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/rupert.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://www.openprisecloud.com"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/openprise.png"/> </a>
+                <a href="https://www.openprisecloud.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/openprise.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://simility.com"> <span class="helper"></span><img src="../../static/img/portfolio/simility.png"/> </a>
+                <a href="https://simility.com"> <span class="helper"></span><img src="../../../static/img/portfolio/simility.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://mobilize.io"> <span class="helper"></span><img src="../../static/img/portfolio/mobilize.png"/> </a>
+                <a href="http://mobilize.io"> <span class="helper"></span><img src="../../../static/img/portfolio/mobilize.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://wootric.com"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/wootric.png"/> </a>
+                <a href="http://wootric.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/wootric.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://6dbytes.com"> <span class="helper"></span><img  src="../../static/img/portfolio/6d.png"/> </a>
+                <a href="https://6dbytes.com"> <span class="helper"></span><img  src="../../../static/img/portfolio/6d.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://take44.com"> <span class="helper"></span><img  src="../../static/img/portfolio/take44.png"/> </a>
+                <a href="http://take44.com"> <span class="helper"></span><img  src="../../../static/img/portfolio/take44.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://www.lennd.com"> <span class="helper"></span><img src="../../static/img/portfolio/lennd.png"/> </a>
+                <a href="https://www.lennd.com"> <span class="helper"></span><img src="../../../static/img/portfolio/lennd.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://www.nomiku.com"> <span class="helper"></span><img src="../../static/img/portfolio/nomiku.png"/> </a>
+                <a href="http://www.nomiku.com"> <span class="helper"></span><img src="../../../static/img/portfolio/nomiku.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://shotput.com"> <span class="helper"></span><img src="../../static/img/portfolio/shotput.svg"/> </a>
+                <a href="http://shotput.com"> <span class="helper"></span><img src="../../../static/img/portfolio/shotput.svg"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://leapfin.com"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/leapfin.png"/> </a>
+                <a href="https://leapfin.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/leapfin.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://placer.io"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/placer.png"/> </a>
+                <a href="http://placer.io"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/placer.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://bliss.sh"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/bliss.png"/> </a>
+                <a href="http://bliss.sh"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/bliss.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://vue.ai"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/madstreetden.png"/> </a>
+                <a href="http://vue.ai"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/madstreetden.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://www.safegraph.com"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/safegraph.jpg"/> </a>
+                <a href="http://www.safegraph.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/safegraph.jpg"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://www.solugen.co/"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/solugen.png"/> </a>
+                <a href="http://www.solugen.co/"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/solugen.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://hivyapp.com/"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/hivy.png"/> </a>
+                <a href="https://hivyapp.com/"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/hivy.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://www.pulse.qa"> <span class="helper"></span><img valign="middle" src="../../static/img/portfolio/pulse.png"/> </a>
+                <a href="http://www.pulse.qa"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/pulse.png"/> </a>
               </div>
             </div>
           </div>
 
         </div>
-      </div>
     </section>
-  </index>
+  </page>
 </template>
 
 <script>
-import Index from './Index';
+import Page from '../Page';
 
 export default {
   name: 'investments',
   components: {
-    index: Index,
+    page: Page,
   },
   props: ['page'],
   data() {

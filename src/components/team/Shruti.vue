@@ -1,11 +1,11 @@
 <template>
-  <index>
+  <page>
     <div slot="content" class="container svg">
       <h2>Shruti Gandhi</h2>
       <div>
         <div class="row">
           <div class="col-xs-12 col-sm-4 photo">
-            <img height="200" src="../../assets/img/shruti.jpg" alt="Shruti"/>
+            <img height="200" src="../../../static/img/people/shruti-circle-280.png" alt="Shruti"/>
           </div>
 
           <div class="col-xs-12 col-sm-8 content">
@@ -35,16 +35,16 @@
       </div>
 
     </div>
-  </index>
+  </page>
 </template>
 
 <script>
-  import Index from '../Index';
+  import Page from '../Page';
 
   export default {
     name: 'shruti',
     components: {
-      index: Index,
+      page: Page,
     },
   };
 </script>

@@ -2,11 +2,9 @@
   <div>
     <div class="person">
       <a :href="person.href">
-        <div class="overlay">
-          <h4>{{ person.name }}</h4>
-          <h5>{{ person.title }}</h5>
-        </div>
-        <img :src="person.getImage()" alt="photo" />
+        <img :src="person.img" alt="photo" />
+        <h4>{{ person.name }}</h4>
+        <h5>{{ person.title }}</h5>
       </a>
     </div>
 
@@ -45,8 +43,12 @@ export default {
 
   h5, h4 {
     margin: 0;
-    text-shadow: 1px 1px 2px black;
     text-align: center;
+  }
+
+  a, a:hover, a:visited {
+    color: #34282C;
+    text-decoration: none;
   }
 
   h5 {

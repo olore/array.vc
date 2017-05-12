@@ -1,5 +1,5 @@
 <template>
-  <index page="podcasts">
+  <page page="podcasts">
     <section slot="content" class="module content">
       <div class="itunes-link">
         <a href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
@@ -19,16 +19,16 @@
       </div>
 
     </section>
-  </index>
+  </page>
 </template>
 
 <script>
-import Index from './Index';
+import Page from '../Page';
 
 export default {
   name: 'podcasts',
   components: {
-    index: Index,
+    page: Page,
   },
   props: ['page'],
   data() {

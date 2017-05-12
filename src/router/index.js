@@ -1,9 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '@/components/Home';
-import Team from '@/components/Team';
-import Investments from '@/components/Investments';
-import PodCasts from '@/components/Podcasts';
+
+import Advisors from '@/components/pages/Advisors';
+import Home from '@/components/pages/Home';
+import Investments from '@/components/pages/Investments';
+import PodCasts from '@/components/pages/Podcasts';
+import Team from '@/components/pages/Team';
+
 import Shruti from '@/components/team/Shruti';
 import Lucas from '@/components/team/Lucas';
 import Joseph from '@/components/team/Joseph';
@@ -33,6 +36,11 @@ const router = new Router({
       component: PodCasts,
     },
 
+    {
+      path: '/advisors',
+      name: 'Advisors',
+      component: Advisors,
+    },
     // team
     {
       path: '/team/shruti',
