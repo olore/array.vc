@@ -11,7 +11,18 @@
 
       <div class="row">
         <div class="col-xs-12 subnav">
-          <h2><a href="#/team">Tech</a> | Advisors</h2>
+          <h2><a href="#/team">Team</a> | Advisors</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 subnav">
+          <h2>
+            All |
+            <a href="#/advisors/tech">Tech</a> |
+            <a href="#/advisors/health">Health</a> |
+            <a href="#/advisors/sales">Sales</a>
+          </h2>
         </div>
       </div>
 
@@ -58,12 +69,13 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
   .subnav {
     text-align: center;
-  }
-  .subnav h2 {
-    margin-top: 0;
+
+    h2 {
+      margin-top: 0;
+    }
   }
 </style>
 

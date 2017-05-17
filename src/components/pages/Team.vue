@@ -11,16 +11,32 @@
 
       <div class="row">
         <div class="col-xs-12 subnav">
-          <h2>Tech | <a href="#/advisors">Advisors</a></h2>
+          <h2>Team | <a href="#/advisors">Advisors</a></h2>
         </div>
       </div>
 
-      <div class="row">
-          <person class="col-xs-12 col-sm-3 col-md-2"
-                  v-for="person in people"
-                  :person="person"
-                  :selected="selectPerson"
-                  :key="person.name"></person>
+      <div class="row bio">
+        <div class="col-xs-12 col-sm-6 col-sm-push-6">
+          <img class="center-block img-responsive" src="../../../static/img/people/shruti.jpg" alt="shruti photo" />
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+          <h1>Shruti Gandhi</h1>
+          <p class="text">
+            Bacon ipsum dolor amet fatback alcatra cupim porchetta bacon swine sausage pastrami. Chicken ball tip cow, chuck tongue ground round porchetta frankfurter pig filet mignon. Boudin cow bresaola sirloin corned beef, landjaeger kevin pork belly beef ribs tri-tip pork bacon ribeye cupim andouille. Leberkas chicken alcatra shank, hamburger brisket venison short loin ham hock ball tip. Pancetta pork belly pastrami cupim shoulder pork chop jowl. Fatback jerky pancetta cupim boudin, flank tenderloin sausage strip steak pork loin pastrami bresaola.
+          </p>
+        </div>
+      </div>
+
+      <div class="row bio">
+        <div class="col-xs-12 col-sm-6">
+          <img class="center-block img-responsive" src="../../../static/img/people/joseph.png" alt="joseph photo" />
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h1>Joseph Davidson</h1>
+          <p class="text">
+            Pork cupim bacon filet mignon pancetta turkey fatback kielbasa kevin. Cupim filet mignon venison, pork belly ribeye shoulder frankfurter andouille porchetta leberkas flank boudin. Frankfurter prosciutto short loin burgdoggen tongue capicola, biltong tri-tip cupim shankle. Capicola pancetta ground round sausage. Frankfurter cow shoulder andouille shank sausage. Sirloin meatloaf drumstick picanha brisket.
+          </p>
+        </div>
       </div>
 
     </section>
@@ -28,22 +44,17 @@
 </template>
 
 <script>
-import Person from '../Person';
 import Page from '../Page';
 
 export default {
   name: 'team',
   components: {
-    person: Person,
     page: Page,
   },
 
   data() {
     return {
       selected: {},
-      selectPerson: (person) => {
-        this.selected = person;
-      },
       people: [
         {
           name: 'Shruti Gandhi',
@@ -63,12 +74,37 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
   .subnav {
     text-align: center;
+
+    h2 {
+      margin-top: 0;
+    }
   }
-  .subnav h2 {
-    margin-top: 0;
+
+  .bio {
+    margin-bottom: 20px;
+
+    img {
+      width: 400px;
+    }
+
+    .text {
+      font-size: 14px;
+    }
   }
+
+  @media (min-width: 768px) { }
+
+  @media (min-width: 992px) {
+    .bio {
+      .text {
+        font-size: 18px;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) { }
 </style>
 
