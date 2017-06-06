@@ -37,9 +37,10 @@ const router = new Router({
     },
 
     {
-      path: '/advisors',
+      path: '/advisors/:field?',
       name: 'Advisors',
       component: Advisors,
+      props: true,
     },
     // team
     {

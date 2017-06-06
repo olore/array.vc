@@ -18,17 +18,16 @@
       <div class="row">
         <div class="col-xs-12 subnav">
           <h2>
-            All |
+            <a href="#/advisors">All</a> |
             <a href="#/advisors/tech">Tech</a> |
-            <a href="#/advisors/health">Health</a> |
-            <a href="#/advisors/sales">Sales</a>
+            <a href="#/advisors/health">Health</a>
           </h2>
         </div>
       </div>
 
       <div class="row">
           <person class="col-xs-12 col-sm-3 col-md-2"
-                  v-for="person in people"
+                  v-for="person in filteredByField(people, field)"
                   :person="person"
                   :selected="selectPerson"
                   :key="person.name"></person>
@@ -49,17 +48,63 @@ export default {
     page: Page,
   },
 
+  beforeRouteUpdate(to, from, next) {
+    this.field = to.params.field || 'all';
+    next();
+  },
+
   data() {
     return {
       selected: {},
+      field: this.$route.params.field || 'all',
+
       selectPerson: (person) => {
         this.selected = person;
       },
+
+      filteredByField: (peeps, field) => {
+        if (field === 'all') {
+          return peeps;
+        }
+        return peeps.filter(person => person.field === field);
+      },
+
       people: [
         {
           name: 'Lucas Baker',
-          title: 'Technology Partner',
+          title: 'Google Deepmind',
           id: 'lucas',
+          field: 'tech',
+        },
+        {
+          name: 'Anthony Wu',
+          title: 'Apple',
+          id: 'anthony',
+          field: 'tech',
+        },
+        {
+          name: 'Eric Sigler',
+          title: 'PagerDuty',
+          id: 'eric',
+          field: 'tech',
+        },
+        {
+          name: 'Dan Janney',
+          title: 'Alta Partners',
+          id: 'dan',
+          field: 'health',
+        },
+        {
+          name: 'Kimberly Ha',
+          title: 'FTI Consulting',
+          id: 'kimberly',
+          field: 'health',
+        },
+        {
+          name: 'Ellen Rudnick',
+          title: '--',
+          id: 'ellen',
+          field: 'health',
         },
       ],
     };
