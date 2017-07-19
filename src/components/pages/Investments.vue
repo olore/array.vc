@@ -11,12 +11,17 @@
           <div class="row">
             <div class="col-md-3">
               <div class="logo-wrapper">
+                <a href="https://www.linkedin.com/company-beta/18089693/"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/zendar.png"/> </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-wrapper">
                 <a href="http://rupertbot.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/rupert.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="https://www.openprisecloud.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/openprise.png"/> </a>
+                <a href="https://www.openprisetech.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/openprise.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
@@ -71,7 +76,7 @@
             </div>
             <div class="col-md-3">
               <div class="logo-wrapper">
-                <a href="http://bliss.sh"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/bliss.png"/> </a>
+                <a href="http://taxjoy.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/taxjoy.png"/> </a>
               </div>
             </div>
             <div class="col-md-3">
@@ -97,6 +102,16 @@
             <div class="col-md-3">
               <div class="logo-wrapper">
                 <a href="http://www.pulse.qa"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/pulse.png"/> </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-wrapper">
+                <a href="http://drivemotors.com"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/drive-motors.png"/> </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="logo-wrapper">
+                <a href="http://catchandrelease.tv"> <span class="helper"></span><img valign="middle" src="../../../static/img/portfolio/catch-and-release.png"/> </a>
               </div>
             </div>
           </div>

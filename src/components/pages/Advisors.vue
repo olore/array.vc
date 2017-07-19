@@ -102,7 +102,7 @@ export default {
         },
         {
           name: 'Ellen Rudnick',
-          title: '--',
+          title: 'Liberty Mutual Board of Director and Booth',
           id: 'ellen',
           field: 'health',
         },
