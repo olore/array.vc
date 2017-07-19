@@ -2,12 +2,29 @@
   <section>
     <section class="module parallax parallax-4">
       <div class="x-container">
-        <h1>Press</h1>
+        <h1>News</h1>
       </div>
     </section>
 
     <section class="module content">
       <div class="x-container">
+
+        <h2>Recent Events</h2>
+
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4U0j2oYsFDU?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rRb_WBMUtxY?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_6F7UlNjdfk?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        USA Today: <a href="https://www.usatoday.com/story/tech/2015/09/30/change-agents-live-san-francisco-ron-johnson-shruti-gandhi-tristan-walker-meredith-perry/73061264/">
+          Disruption is more than a buzz word: Change Agents Live
+        </a>
+
         <h2>Our communications</h2>
         <ul>
           <li><a href="http://eepurl.com/b9t7c1">Newsletter #4</a> - Welcome Openprise &amp; 6D Bytes!</li>
@@ -57,5 +74,21 @@ export default {
       padding-left: 0;
     }
 
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 </style>

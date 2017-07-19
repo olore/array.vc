@@ -4,8 +4,9 @@ import Router from 'vue-router';
 import Advisors from '@/components/pages/Advisors';
 import Home from '@/components/pages/Home';
 import Investments from '@/components/pages/Investments';
-import PodCasts from '@/components/pages/Podcasts';
+import Podcasts from '@/components/pages/Podcasts';
 import Team from '@/components/pages/Team';
+import News from '@/components/pages/News';
 
 import Shruti from '@/components/team/Shruti';
 import Lucas from '@/components/team/Lucas';
@@ -31,9 +32,14 @@ const router = new Router({
       component: Investments,
     },
     {
+      path: '/news',
+      name: 'news',
+      component: News,
+    },
+    {
       path: '/podcasts',
       name: 'podcasts',
-      component: PodCasts,
+      component: Podcasts,
     },
 
     {

@@ -82,12 +82,12 @@ export default {
           id: 'anthony',
           field: 'tech',
         },
-        {
-          name: 'Eric Sigler',
-          title: 'PagerDuty',
-          id: 'eric',
-          field: 'tech',
-        },
+//        {
+//          name: 'Brian Olore',
+//          title: 'Tech Consultant',
+//          id: 'brian',
+//          field: 'tech',
+//        },
         {
           name: 'Dan Janney',
           title: 'Alta Partners',

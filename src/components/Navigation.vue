@@ -2,6 +2,7 @@
     <section class="nav">
       <a v-if="page !== 'home'" href="#">[ HOME ]</a>
       <a v-if="page !== 'investments'" href="#investments">[ INVESTMENTS ]</a>
+      <a v-if="page !== 'news'" href="#news">[ NEWS ]</a>
       <a v-if="page !== 'podcasts'" href="#podcasts">[ PODCAST ]</a>
       <a v-if="page !== 'advisors' && page !== 'team'" href="#team">[ TEAM ]</a>
     </section>

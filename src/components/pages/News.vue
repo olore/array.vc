@@ -1,8 +1,6 @@
 <template>
-  <page page="home">
+  <page page="news">
     <div slot="content">
-      <mission></mission>
-      <disruption></disruption>
       <press></press>
     </div>
   </page>
@@ -11,16 +9,12 @@
 <script>
 import Page from '../Page';
 import Press from './news/Press';
-import Disruption from './home/Disruption';
-import Mission from './home/Mission';
 
 export default {
-  name: 'home',
+  name: 'news',
   components: {
     page: Page,
     press: Press,
-    mission: Mission,
-    disruption: Disruption,
   },
   data() {
     return {
