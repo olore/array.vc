@@ -3,7 +3,6 @@
     <div slot="content">
       <mission></mission>
       <disruption></disruption>
-      <press></press>
     </div>
   </page>
 </template>
