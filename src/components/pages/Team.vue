@@ -23,14 +23,25 @@
             <a class="webicon twitter large" href="https://twitter.com/atShruti">Twitter</a>
           </div>
         </div>
+
         <div class="col-xs-12 col-sm-6 col-sm-pull-6">
-          <h1>Shruti Gandhi</h1>
+          <div class="name">
+            <h1>Shruti Gandhi</h1>
+            <h3>Founder &amp; Managing Partner</h3>
+          </div>
           <p class="text">
-            Shruti is a managing partner at Array Ventures. Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners, and the i2A Fund.
+            Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage
+            venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners, and the i2A Fund.
             <br /> <br />
-            Shruti started working with Machine Learning algorithms while working on her master's thesis in computer science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM she worked on self learning algorithms that detected user location based on IP addresses, which she later incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections with their friends based on social data.
+            Shruti started working with Machine Learning algorithms while working on her master's thesis in computer
+            science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM
+            she worked on self learning algorithms that detected user location based on IP addresses, which she later
+            incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections
+            with their friends based on social data.
             <br /> <br />
-            When not investing, she is hacking on some app or thinking about ways she can be in many places at one time. Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making the switch from engineer/founder to investor.
+            When not investing, she is hacking on some app or thinking about ways she can be in many places at one time.
+            Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making
+            the switch from engineer/founder to investor.
           </p>
         </div>
       </div>
@@ -39,13 +50,19 @@
         <div class="col-xs-12 col-sm-6">
           <img class="center-block img-responsive" src="../../../static/img/people/joseph.png" alt="joseph photo" />
         </div>
+
         <div class="col-xs-12 col-sm-6">
-          <h1>Joseph Davidson</h1>
+          <div class="name">
+            <h1>Joseph Davidson</h1>
+            <h3>Business Operations</h3>
+          </div>
           <p class="text">
-            Joseph joined Array Ventures in 2017. Prior to Array Ventures, Joseph was a Senior Analyst at Barah Capital Partners and The Riverside Company working on investment due diligence.
+            Joseph joined Array Ventures in 2017. Prior to Array Ventures, Joseph was a Senior Analyst at
+            Barah Capital Partners and The Riverside Company working on investment due diligence.
             <br />
             <br />
-            Joseph holds a BA in History from University of California, San Diego and Masters in Finance from Santa Clara University.
+            Joseph holds a BA in History from University of California, San Diego and Masters in
+            Finance from Santa Clara University.
           </p>
         </div>
       </div>
@@ -86,6 +103,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+  .name {
+    h1, h3 {
+      margin: 0;
+    }
+
+  }
   .subnav {
     text-align: center;
 
