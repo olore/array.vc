@@ -14,8 +14,9 @@
           <h2>Team | <a href="#/advisors">Advisors</a></h2>
         </div>
       </div>
+
       <div class="row vertical-align bio">
-        <div class="col-xs-12 col-sm-6 col-sm-push-6">
+        <div class="col-xs-12">
           <img class="center-block img-responsive" src="../../../static/img/people/shruti-new.jpg" alt="shruti photo" />
           <br />
           <div style="text-align: center">
@@ -23,8 +24,10 @@
             <a class="webicon twitter large" href="https://twitter.com/atShruti">Twitter</a>
           </div>
         </div>
+      </div>
 
-        <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+      <div class="row vertical-align bio">
+        <div class="col-xs-12">
           <div class="name">
             <h1>Shruti Gandhi</h1>
             <h3>Founder &amp; Managing Partner</h3>
@@ -47,11 +50,13 @@
       </div>
 
       <div class="row vertical-align bio">
-        <div class="col-xs-12 col-sm-6">
+        <div class="col-xs-12">
           <img class="center-block img-responsive" src="../../../static/img/people/joseph.png" alt="joseph photo" />
         </div>
+      </div>
 
-        <div class="col-xs-12 col-sm-6">
+      <div class="row vertical-align bio">
+        <div class="col-xs-12">
           <div class="name">
             <h1>Joseph Davidson</h1>
             <h3>Business Operations</h3>
