@@ -1,23 +1,20 @@
 <template>
-  <div>
+  <a :href="`${investment.link}`">
     <div class="col-md-3 outline">
       <div class="logo-wrapper">
-        <a @click="toggleDescription()"><span class="helper"></span><img valign="middle" :src="`../../../../static/img/portfolio/${inv.image}`"/></a>
+        <span class="helper"></span><img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`"/>
+        <div class="description">
+          {{ investment.description }}
+        </div>
       </div>
     </div>
-    <div class="col-md-3" v-bind:class="{ hidden: !displayDescription }">
-      <div>
-        {{ inv.description }}
-        <a :href="`${inv.link}`">Visit their site.</a>
-      </div>
-    </div>
-  </div>
+  </a>
 </template>
 
 <script>
   export default {
     name: 'investment',
-    props: ['inv'],
+    props: ['investment'],
     data() {
       return {
         displayDescription: false,
@@ -50,6 +47,10 @@
   .logo-wrapper {
     height: 100%;
     text-align: center;
+  }
+
+  .description {
+    color: #666;
   }
 
   @media only screen

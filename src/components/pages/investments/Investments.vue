@@ -11,9 +11,9 @@
 
           <div class="row">
 
-            <investment v-for="i in investments"
-                        :inv="i"
-                        :key="i.name"
+            <investment v-for="inv in investments"
+                        :investment="inv"
+                        :key="inv.name"
             ></investment>
 
           </div>
@@ -41,110 +41,127 @@ export default {
           name: 'Zendar',
           link: 'https://www.linkedin.com/company-beta/18089693/',
           image: 'zendar.png',
-          description: `Zendar is the bomb. They make widgets faster than anyone. Led by George Jetson, the team is ready
-            to take on Spacely's Sprockets and win in the long term.`,
+          description: 'Self-driving Radar/ML company',
         },
         {
           name: 'Rupertbot',
           link: 'http://rupertbot.com',
           image: 'rupert.png',
-          description: `Rupertbot is the bomb. They make widgets faster than anyone. Led by George Jetson, the team is ready
-            to take on Spacely's Sprockets and win in the long term.`,
+          description: 'Conversational AI platform',
         },
         {
           name: 'Openprise',
           link: 'https://www.openprisetech.com',
           image: 'openprise.png',
+          description: 'Data orchestration',
         },
         {
           name: 'Simility',
           link: 'https://simility.com',
           image: 'simility.png',
+          description: 'AI/ML fraud management',
         },
         {
           name: 'Mobilize',
           link: 'https://mobilize.io',
           image: 'mobilize.png',
+          description: 'Community Management Platform',
         },
         {
           name: 'Wootric',
           link: 'http://wootric.com',
           image: 'wootric.png',
+          description: 'Data-driven customer UX platform',
         },
         {
           name: '6dbytes',
           link: 'http://6dbytes.com',
           image: '6d.png',
+          description: 'Robotic food tech',
         },
         {
           name: 'Take 44',
           link: 'http://take44.com',
           image: 'take44.png',
+          description: 'Zenefits for brokers',
         },
         {
           name: 'Lennd',
           link: 'http://lennd.com',
           image: 'lennd.png',
+          description: 'OS for event planning',
         },
         {
           name: 'Nomiku',
           link: 'http://nomiku.com',
           image: 'nomiku.png',
+          description: 'Home Sous vide',
         },
         {
           name: 'Shotput',
           link: 'http://shotput.com',
           image: 'shotput.svg',
+          description: 'Robotic arm for grocery stores',
         },
         {
           name: 'Leapfin',
           link: 'http://leapfin.com',
           image: 'leapfin.png',
+          description: 'Revenue operations Automation',
         },
         {
           name: 'Placer',
           link: 'http://placer.io',
           image: 'placer.png',
+          description: 'Insights on foot traffic',
         },
         {
           name: 'Tax Joy',
           link: 'http://taxjoy.com',
           image: 'taxjoy.png',
+          description: 'CRM for accountants',
         },
         {
           name: 'Mad Street Den',
           link: 'http://vue.ai',
           image: 'madstreetden.png',
+          description: 'Enabling brands with deep tech',
         },
         {
           name: 'Safe Graph',
           link: 'http://www.safegraph.com',
           image: 'safegraph.jpg',
+          description: 'Predicting the past',
         },
         {
           name: 'Solugen',
           link: 'http://www.solugen.co',
           image: 'solugen.png',
+          description: 'Plant based hydrogen peroxide',
         },
         {
           name: 'Hivy',
           link: 'http://www.hivyapp.co',
           image: 'hivy.png',
+          description: 'Automation for Office Managers',
         },
         {
           name: 'Pulse',
           link: 'http://www.pulse.qa',
           image: 'pulse.png',
+          description: 'Crowdsourced research for C-level execs',
         },
         {
           name: 'Drive Motors',
           link: 'http://drivemotors.com',
           image: 'drive-motors.png',
+          description: 'Stripe for auto dealers',
         },
         {
           name: 'Catch and Release',
           link: 'http://catchandrelease.tv',
           image: 'catch-and-release.png',
+          description: 'Media Discovery & Licensing',
         },
       ],
     };
