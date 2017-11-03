@@ -10,7 +10,6 @@ import News from '@/components/pages/News';
 
 import Shruti from '@/components/team/Shruti';
 import Lucas from '@/components/team/Lucas';
-import Joseph from '@/components/team/Joseph';
 
 Vue.use(Router);
 
@@ -53,11 +52,6 @@ const router = new Router({
       path: '/team/shruti',
       name: 'shruti',
       component: Shruti,
-    },
-    {
-      path: '/team/joseph',
-      name: 'joseph',
-      component: Joseph,
     },
     {
       path: '/team/lucas',

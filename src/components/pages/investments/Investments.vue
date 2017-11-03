@@ -9,16 +9,30 @@
           </div>
         </div>
 
-          <div class="row">
+        <div class="row">
 
-            <investment v-for="inv in investments"
-                        :investment="inv"
-                        :key="inv.name"
-            ></investment>
-
-          </div>
+          <investment v-for="inv in investments"
+                      :investment="inv"
+                      :key="inv.name"
+          ></investment>
 
         </div>
+
+        <div class="row exits">
+          <div class="col-xs-12">
+            <h2>Exits</h2>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <investment v-for="inv in exits"
+                      :investment="inv"
+                      :key="inv.name"
+          ></investment>
+
+        </div>
+      </div>
     </section>
   </page>
 </template>
@@ -140,12 +154,6 @@ export default {
           description: 'Plant based hydrogen peroxide',
         },
         {
-          name: 'Hivy',
-          link: 'http://www.hivyapp.co',
-          image: 'hivy.png',
-          description: 'Automation for Office Managers',
-        },
-        {
           name: 'Pulse',
           link: 'http://www.pulse.qa',
           image: 'pulse.png',
@@ -163,6 +171,32 @@ export default {
           image: 'catch-and-release.png',
           description: 'Media Discovery & Licensing',
         },
+        {
+          name: 'art19',
+          link: 'https://art19.com/',
+          image: 'art19.png',
+          description: 'Enterprise Podcast Platform',
+        },
+        {
+          name: 'Managed By Q',
+          link: 'http://managedbyq.com',
+          image: 'managed-by-q.png',
+          description: 'On-demand Office Services',
+        },
+        {
+          name: 'zecOps',
+          link: 'https://zecops.com/',
+          image: 'zecops.png',
+          description: 'Stealth Security Startup',
+        },
+      ],
+      exits: [
+        {
+          name: 'Hivy',
+          link: 'http://www.hivyapp.com',
+          image: 'hivy.png',
+          description: 'Automation for Office Managers',
+        },
       ],
     };
   },
@@ -172,25 +206,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .row img {
-    max-width: 100%;
-    max-height: 100px;
-  }
-  .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-  .outline {
-    border: 1px solid darkgray;
-    height: 120px;
-    max-height: 160px;
-    margin: 25px 25px 0 25px !important;
+
+  .container {
+    margin-bottom: 200px;
   }
 
-  .logo-wrapper {
-    height: 100%;
-    text-align: center;
+  .exits {
+    margin-top: 20px;
   }
 
   @media only screen

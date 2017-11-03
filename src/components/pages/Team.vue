@@ -49,29 +49,6 @@
         </div>
       </div>
 
-      <div class="row vertical-align bio">
-        <div class="col-xs-12">
-          <img class="center-block img-responsive" src="../../../static/img/people/joseph.png" alt="joseph photo" />
-        </div>
-      </div>
-
-      <div class="row vertical-align bio">
-        <div class="col-xs-12">
-          <div class="name">
-            <h1>Joseph Davidson</h1>
-            <h3>Business Operations</h3>
-          </div>
-          <p class="text">
-            Joseph joined Array Ventures in 2017. Prior to Array Ventures, Joseph was a Senior Analyst at
-            Barah Capital Partners and The Riverside Company working on investment due diligence.
-            <br />
-            <br />
-            Joseph holds a BA in History from University of California, San Diego and Masters in
-            Finance from Santa Clara University.
-          </p>
-        </div>
-      </div>
-
     </section>
   </page>
 </template>
@@ -93,11 +70,6 @@ export default {
           name: 'Shruti Gandhi',
           title: 'Managing Partner',
           id: 'shruti',
-        },
-        {
-          name: 'Joseph Davidson',
-          title: 'Analyst',
-          id: 'joseph',
         },
       ],
     };
