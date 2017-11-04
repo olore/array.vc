@@ -20,7 +20,7 @@
 
         <div class="row exits">
           <div class="col-xs-12">
-            <h2>Exits</h2>
+            <h2>Our Exits</h2>
           </div>
         </div>
 
