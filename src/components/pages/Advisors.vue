@@ -11,16 +11,16 @@
 
       <div class="row">
         <div class="col-xs-12 subnav">
-          <h2><a href="#/team">Team</a> | Advisors</h2>
+          <h2><router-link to="team">Team</router-link> | Advisors</h2>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12 subnav">
           <h2>
-            <a href="#/advisors">All</a> |
-            <a href="#/advisors/tech">Tech</a> |
-            <a href="#/advisors/health">Health</a>
+            <router-link to="/advisors">All</router-link> |
+            <router-link to="/advisors/tech">Tech</router-link> |
+            <router-link to="/advisors/health">Health</router-link>
           </h2>
         </div>
       </div>

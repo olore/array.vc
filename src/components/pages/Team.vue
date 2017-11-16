@@ -11,7 +11,7 @@
 
       <div class="row">
         <div class="col-xs-12 subnav">
-          <h2>Team | <a href="#/advisors">Advisors</a></h2>
+          <h2>Team | <router-link to="advisors">Advisors</router-link></h2>
         </div>
       </div>
 

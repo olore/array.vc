@@ -5,6 +5,11 @@
 ## Build Setup
 
 ``` bash
+# install node version manager - https://github.com/creationix/nvm#installation
+
+nvm install v8
+nvm alias default v8
+
 # install dependencies
 npm install
 
