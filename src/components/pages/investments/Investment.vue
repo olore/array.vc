@@ -50,12 +50,12 @@
 
   .description {
     color: #666;
+    margin-top: 3px;
   }
 
   @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 568px)
-  and (orientation : portrait) {
+  and (min-width : 320px)
+  and (max-width : 990px) {
 
     .outline {
       margin-bottom: 45px !important;
