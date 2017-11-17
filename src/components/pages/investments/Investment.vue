@@ -40,8 +40,7 @@
   .outline {
     border: 1px solid darkgray;
     height: 120px;
-    max-height: 160px;
-    margin: 25px 25px 0 25px !important;
+    margin: 25px !important;
   }
 
   .logo-wrapper {
@@ -58,8 +57,8 @@
   and (max-device-width : 568px)
   and (orientation : portrait) {
 
-    .row img {
-      max-height: 60px;
+    .outline {
+      margin-bottom: 45px !important;
     }
 
   }
