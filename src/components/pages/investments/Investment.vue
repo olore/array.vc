@@ -1,6 +1,6 @@
 <template>
   <a :href="`${investment.link}`">
-    <div class="col-md-3 outline">
+    <div class="col-md-3 col-sm-4 outline">
       <div class="logo-wrapper">
         <span class="helper"></span><img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`"/>
         <div class="description">
@@ -55,7 +55,7 @@
 
   @media only screen
   and (min-width : 320px)
-  and (max-width : 990px) {
+  and (max-width : 765px) {
 
     .outline {
       margin-bottom: 45px !important;
