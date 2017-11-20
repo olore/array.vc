@@ -8,8 +8,7 @@
 require('../static/css/parallax-new.css');
 require('../static/css/webicons.css');
 require('../static/css/bootstrap.min.css');
-require('../static/css/bootstrap.min.css');
-require('../static/css/bootstrap-theme.min.css');
+// require('../static/css/bootstrap-theme.min.css');
 
 export default {
   name: 'app',
