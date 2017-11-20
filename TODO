@@ -1,0 +1,9 @@
+TODO
+
+- turn off text decoration across all pages
+- move stuff out of static so it isn't bundled separately from webpack build (ie webicons)
+
+- turn gzip on server
+- serve gzip'd files?
+
+stop uploading big images over & over.. aren't they in the webpack bundle?
