@@ -52,16 +52,34 @@ export default {
     return {
       investments: [
         {
+          name: 'Stronghold.co',
+          link: 'http://stronghold.co',
+          image: 'stronghold.png',
+          description: 'Buy and Sell Digital Currencies',
+        },
+        {
+          name: 'Mapistry',
+          link: 'http://mapistry.com',
+          image: 'mapistry.png',
+          description: 'Painless Stormwater compliance',
+        },
+        {
+          name: 'SeriesX',
+          link: 'http://seriesx.net',
+          image: 'seriesx.png',
+          description: 'The future of work',
+        },
+        {
           name: 'Zendar',
           link: 'https://www.linkedin.com/company-beta/18089693/',
           image: 'zendar.png',
           description: 'Self-driving Radar/ML company',
         },
         {
-          name: 'Rupertbot',
-          link: 'http://rupertbot.com',
-          image: 'rupert.png',
-          description: 'Conversational AI platform',
+          name: 'Passage AI',
+          link: 'http://www.passageai.com',
+          image: 'passage-ai.png',
+          description: 'Passage AI - Conversational AI platform',
         },
         {
           name: 'Openprise',
@@ -110,12 +128,6 @@ export default {
           link: 'http://nomiku.com',
           image: 'nomiku.png',
           description: 'Home Sous vide',
-        },
-        {
-          name: 'Shotput',
-          link: 'http://shotput.com',
-          image: 'shotput.svg',
-          description: 'Robotic arm for grocery stores',
         },
         {
           name: 'Leapfin',
@@ -184,10 +196,10 @@ export default {
           description: 'On-demand Office Services',
         },
         {
-          name: 'zecOps',
+          name: 'Zecops',
           link: 'https://zecops.com/',
           image: 'zecops.png',
-          description: 'Stealth Security Startup',
+          description: 'Zecops - Stealth Security Startup',
         },
       ],
       exits: [
