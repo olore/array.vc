@@ -1,12 +1,29 @@
 <template>
   <page page="podcasts">
-    <section slot="content" class="module content center">
-      <h3>
-        Podcast to learn hacks from other Al/ML, data, and enterprise founders
+    <section slot="content" class="content">
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>[Array] Podcast</h2>
+        </div>
+      </div>
+      <h3 class="center">
+        Hacks on AI/ML and data from successful founders and investors
       </h3>
-      <div >
-        <a href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2" 
-          style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
+      <div class="row" style="padding-bottom: 10px">
+        <div class="col-xs-12 col-sm-2 col-sm-offset-3">
+          <a href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2" 
+            style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <a href="http://www.stitcher.com/s?fid=179223&refid=stpr"
+            class="stitcher"
+          ></a>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <a href="https://www.breaker.audio/array-podcast"
+            class="breaker"></a>
+        </div>
       </div>
 
       <div class="row">
@@ -17,9 +34,7 @@
         </div>
         <div class="col-xs-1"></div>
       </div>
-      <br />
-      <a href="http://www.stitcher.com/s?fid=179223&refid=stpr">Listen on Stitcher</a>
-
+      </div>
     </section>
   </page>
 </template>
@@ -44,5 +59,23 @@ export default {
 <style scoped>
   .center {
     text-align: center;
+  }
+  .stitcher {
+    display:inline-block;
+    overflow:hidden;
+    background:url(/static/img/stitcher.jpg)
+    no-repeat;
+    width:133px;
+    height:34px;
+    background-size:contain;
+  }
+  .breaker {
+    display:inline-block;
+    overflow:hidden;
+    background:url(/static/img/breaker-blue.svg)
+    no-repeat;
+    width:133px;
+    height:34px;
+    background-size:contain;
   }
 </style>
