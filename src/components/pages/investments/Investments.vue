@@ -52,6 +52,18 @@ export default {
     return {
       investments: [
         {
+          name: 'RADAI',
+          link: 'http://radai.com',
+          image: 'radai.png',
+          description: 'For radiology groups and companies',
+        },
+        {
+          name: 'Merkle Data',
+          link: 'http://merkledata.io',
+          image: 'merkle.png',
+          description: 'Reinventing data for blockchains and cryptos',
+        },
+        {
           name: 'Stronghold.co',
           link: 'http://stronghold.co',
           image: 'stronghold.png',
