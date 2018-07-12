@@ -20,13 +20,14 @@
           <h2>
             <router-link to="/advisors">All</router-link> |
             <router-link to="/advisors/tech">Tech</router-link> |
-            <router-link to="/advisors/health">Health</router-link>
+            <router-link to="/advisors/health">Health</router-link> |
+            <router-link to="/advisors/finance">Finance</router-link>
           </h2>
         </div>
       </div>
 
       <div class="row">
-          <person class="col-xs-12 col-sm-3 col-md-2"
+          <person class="col-xs-12 col-sm-3"
                   v-for="person in filteredByField(people, field)"
                   :person="person"
                   :selected="selectPerson"
@@ -105,6 +106,18 @@ export default {
           title: 'Liberty Mutual Board of Director and Booth',
           id: 'ellen',
           field: 'health',
+        },
+        {
+          name: 'Henning Schulzrinne',
+          title: 'Former FCC CTO',
+          id: 'henning',
+          field: 'tech',
+        },
+        {
+          name: 'Christine Schmid',
+          title: 'Lecturer Executive Master of European and International Business Law',
+          id: 'schmid',
+          field: 'finance',
         },
       ],
     };

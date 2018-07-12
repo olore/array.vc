@@ -52,6 +52,12 @@ export default {
     return {
       investments: [
         {
+          name: 'Xwing',
+          link: 'https://www.linkedin.com/company/xwing/',
+          image: 'xwing.png',
+          description: 'Autonomy for Aviation',
+        },
+        {
           name: 'RADAI',
           link: 'http://radai.com',
           image: 'radai.png',
