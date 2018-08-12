@@ -25,6 +25,12 @@
           Disruption is more than a buzz word: Change Agents Live
         </a>
 
+        <br />
+
+        The Daily HODL: <a href="https://dailyhodl.com/2018/07/23/ethereum-network-boasts-majority-of-new-stablecoins-that-attracted-240-million-in-funding/">
+          Ethereum Network Boasts Majority of New Stablecoins That Attracted $240 Million in Funding
+        </a>
+
         <h2>Our communications</h2>
         <ul>
           <li><a href="http://eepurl.com/b9t7c1">Newsletter #4</a> - Welcome Openprise &amp; 6D Bytes!</li>
