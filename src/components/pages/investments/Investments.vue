@@ -106,18 +106,6 @@ export default {
           description: 'Data orchestration',
         },
         {
-          name: 'Simility',
-          link: 'https://simility.com',
-          image: 'simility.png',
-          description: 'AI/ML fraud management',
-        },
-        {
-          name: 'Mobilize',
-          link: 'https://mobilize.io',
-          image: 'mobilize.png',
-          description: 'Community Management Platform',
-        },
-        {
           name: 'Wootric',
           link: 'http://wootric.com',
           image: 'wootric.png',
@@ -219,6 +207,12 @@ export default {
           image: 'zecops.png',
           description: 'Zecops - Stealth Security Startup',
         },
+        {
+          name: 'empinfo',
+          link: 'https://www.empinfo.com/',
+          image: 'empinfo.png',
+          description: 'Automated Employment & Income Verification',
+        },
       ],
       exits: [
         {
@@ -226,6 +220,18 @@ export default {
           link: 'http://www.hivyapp.com',
           image: 'hivy.png',
           description: 'Automation for Office Managers',
+        },
+        {
+          name: 'Simility',
+          link: 'https://simility.com',
+          image: 'simility.png',
+          description: 'AI/ML fraud management',
+        },
+        {
+          name: 'Mobilize',
+          link: 'https://mobilize.io',
+          image: 'mobilize.png',
+          description: 'Community Management Platform',
         },
       ],
     };
