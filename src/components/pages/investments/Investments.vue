@@ -52,6 +52,36 @@ export default {
     return {
       investments: [
         {
+          name: 'GoodTime',
+          link: 'https://www.goodtime.io/',
+          image: 'goodtime.png',
+          description: 'Automated Interview Scheduling',
+        },
+        {
+          name: 'Productiv.ai',
+          link: 'http://productiv.ai/',
+          image: 'productiv.png',
+          description: 'Productiv.ai',
+        },
+        {
+          name: 'casaone.com',
+          link: 'https://www.casaone.com/',
+          image: 'casaone.svg',
+          description: 'Seamless Furniture Rental',
+        },
+        {
+          name: 'PrecisionGx',
+          link: 'http://precision-gx.com/',
+          image: 'precision-gx.png',
+          description: 'AI for Health Insurance',
+        },
+        {
+          name: 'empinfo',
+          link: 'https://www.empinfo.com/',
+          image: 'empinfo.png',
+          description: 'Automated Employment & Income Verification',
+        },
+        {
           name: 'Xwing',
           link: 'https://www.linkedin.com/company/xwing/',
           image: 'xwing.png',
@@ -206,12 +236,6 @@ export default {
           link: 'https://zecops.com/',
           image: 'zecops.png',
           description: 'Zecops - Stealth Security Startup',
-        },
-        {
-          name: 'empinfo',
-          link: 'https://www.empinfo.com/',
-          image: 'empinfo.png',
-          description: 'Automated Employment & Income Verification',
         },
       ],
       exits: [
