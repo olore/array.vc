@@ -18,7 +18,7 @@
             from Columbia University on understanding user behavior on instant messaging platforms. While at IBM she worked
             on self learning algorithms that detected user location based on IP addresses, which she later incorporated
             into the Lotus Sametime product. Later, her company Penseev helped users make better connections with their
-            friends based on social data. 
+            friends based on social data.
             <br/> <br/>
             When not investing, she is hacking on some app or thinking about ways she can be in many places at one time.
             Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making
