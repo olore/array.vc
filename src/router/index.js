@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import Advisors from '@/components/pages/Advisors';
 import Home from '@/components/pages/Home';
 import Investments from '@/components/pages/investments/Investments';
+import BootCamps from '@/components/pages/bootcamps/BootCamps';
 import Podcasts from '@/components/pages/Podcasts';
 import Team from '@/components/pages/Team';
 import News from '@/components/pages/News';
@@ -29,6 +30,11 @@ const router = new Router({
       path: '/investments',
       name: 'Investments',
       component: Investments,
+    },
+    {
+      path: '/bootcamps',
+      name: 'BootCamps',
+      component: BootCamps,
     },
     {
       path: '/news',

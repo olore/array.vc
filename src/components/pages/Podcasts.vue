@@ -4,7 +4,7 @@
       <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2>[Array] Podcast</h2>
+          <h1>[Array] Podcast</h1>
         </div>
       </div>
       <h3 class="center">

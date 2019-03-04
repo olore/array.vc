@@ -5,7 +5,7 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h2>Our investments</h2>
+            <h1>Our investments</h1>
           </div>
         </div>
 
@@ -20,7 +20,7 @@
 
         <div class="row exits">
           <div class="col-xs-12">
-            <h2>Our Exits</h2>
+            <h1>Our Exits</h1>
           </div>
         </div>
 
@@ -51,6 +51,12 @@ export default {
   data() {
     return {
       investments: [
+        {
+          name: 'Tankutility',
+          link: 'https://www.tankutility.com',
+          image: 'tankutility.png',
+          description: 'Smart Monitors for Propane Tank',
+        },
         {
           name: 'GoodTime',
           link: 'https://www.goodtime.io/',
