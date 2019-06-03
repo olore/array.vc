@@ -10,12 +10,11 @@
       <div class="x-container">
 
         <div class="col-md-12">
-          <h2>Events</h2>
           <div class = "text-center">
             <div class="logo-wrapper" style = "text-align: center">
               <img valign="middle" :src="`../../../../static/img/Mid-Year_Update_Overview.jpg`"/>
               <div class="description" >
-                <p>
+                <p style ="font-size:30px">
                   We at Array Ventures are really excited about our enterprise event next week on June 4th. We have some awesome panels and great pitches from some of our companies.
                   <br><br><br>
                 </p>
@@ -25,15 +24,27 @@
 
           <div class = "text-center">
             <div class="logo-wrapper"  style = "text-align: center">
-              <img  style = "text-align: center" valign="middle" :src="`../../../../static/img/Mid-Year_Update_Speakers.jpg`"/>
+              <img  style = "text-align: center" valign="middle" :src="`../../../../static/img/Mid-Year_Update_Panel1.jpg`"/>
               <div class="description" style = "text-align: center">
-                <p>
-                  For our panel on the state of enterprise investing, Ajay Chopra, Jai Das, and Joseph Floyd – partners of top VC firms such as Trinity Ventures, Vista Equity Partners, Sapphire Ventures – will tell us what they look for in companies while investing at Series A to Growth Stage companies. Then, for our panel on data driven businesses, Richard Socher, Lukas Biewald, Bala Sahejpal, and moderator Jocelyn Goldfein will tell us how businesses should reinvent themselves using data and AI.
+                <p style ="font-size:30px">
+                  For our panel on the state of enterprise investing, Ajay Chopra, Jai Das, and Joseph Floyd – partners of top VC firms such as Trinity Ventures, Vista Equity Partners, Sapphire Ventures – will tell us what they look for in companies while investing at Series A to Growth Stage companies. 
                   <br><br><br>
                 </p>
               </div>
             </div>
           </div>  
+
+          <div class = "text-center">
+            <div class="logo-wrapper" style = "text-align: center">
+              <img valign="middle" :src="`../../../../static/img/Mid-Year_Update_Panel2.jpg`"/>
+              <div class="description" >
+                <p style ="font-size:30px">
+                  Then, for our panel on data driven businesses, Richard Socher, Lukas Biewald, Bala Sahejpal, and moderator Jocelyn Goldfein will tell us how businesses should reinvent themselves using data and AI.
+                  <br><br><br>
+                </p>
+              </div>
+            </div>
+          </div> 
 
         <h2>Videos</h2>
         <div class="video-container">
