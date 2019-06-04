@@ -26,11 +26,11 @@ npm run build --report
 ## deploying for test / next
 1. Change `assetsPublicPath` in config/index.js from `/` to `/next` under `build:` section
 2. Run `npm run build`
-3. FTP files up to /next dir
+3. FTP `index.html` & `dist/` up to the `/next` dir
 4. Open http://array.vc/next in browser
 
 ## deploying for reals
 1. Make sure `assetsPublicPath` in config/index.js is `/` under `build:` section
 2. Run `npm run build`
-3. FTP files up to / dir
+3. FTP `index.html` & `dist/` up to the root directory to replace existing
 4. Open http://array.vc/ in browser
