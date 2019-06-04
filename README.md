@@ -34,3 +34,5 @@ npm run build --report
 2. Run `npm run build`
 3. FTP `dist/index.html` & `dist/static/` up to the root directory to replace existing
 4. Open http://array.vc/ in browser
+
+<img src="filezilla.png" />
