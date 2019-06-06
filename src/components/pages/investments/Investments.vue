@@ -52,6 +52,18 @@ export default {
     return {
       investments: [
         {
+          name: 'Dyneti',
+          link: 'https://dyneti.com/',
+          image: 'dyneti.png',
+          description: 'An authentication platform using deep learning',
+        },
+        {
+          name: 'Overview',
+          link: 'https://www.overview.ai/',
+          image: 'overview.png',
+          description: 'Manufacturing automation using computer vision',
+        },
+        {
           name: 'Tankutility',
           link: 'https://www.tankutility.com',
           image: 'tankutility.png',
