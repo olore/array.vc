@@ -6,8 +6,8 @@
 ``` bash
 # install node version manager - https://github.com/creationix/nvm#installation
 
-nvm install v8
-nvm alias default v8
+nvm install v10
+nvm alias default v10
 
 # install dependencies
 npm install
