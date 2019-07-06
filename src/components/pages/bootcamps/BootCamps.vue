@@ -1,20 +1,18 @@
 <template>
   <page page="bootcamps">
-    <section slot="content" class="content">
+    <section slot="content" class="module content">
 
       <div class="container">
 
         <div class="row">
           <div class="col-xs-12">
-            <div class="logo-wrapper">
+            <div class="logo-wrapper" style="margin-top:-60px;">
               <h1>Array Academy 10x Growth</h1>
                 <div class="description">
                   <div class = "buttonAlign">
                     <p>Array runs an academy for founders to grow rapidly from 1-10m ARR. We know the journey to $1m ARR is hard and then to $10m ARR is even harder and murkier. </p>
 
                     <p>So we have gathered the best C-level execs from successful enterprise companies to help you create your best path forward. We have put together a curriculum that can help your company grow 10x.</p>
-
-                    <br>
                    
                     <button class = "button" onclick="window.location.href = 'https://arrayventures.typeform.com/to/nRIVdL';"> Apply here </button>
                   </div>
@@ -26,7 +24,7 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h2>Upcoming Academy</h2>
+            <h2>Recent Academies</h2>
           </div>
         </div>
 
@@ -44,11 +42,11 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-2"> </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-bottom:20px;">
                       <img height = "300" width = "300" valign="middle" :src="`../../../../static/img/people/JudyLoehr.jpg`">
                       <p>Judy Loehr - Enterprise SaaS Executive, Original Salesforce PM, Zuora, ServiceMax</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-bottom:20px;">
                       <img height = "300" width = "300" valign="middle" :src="`../../../../static/img/people/MonikaSaha.png`">
                       <p>Monica Saha - Delphix CMO, Employee #11 at Zuora thru IPO</p>
                     </div>
@@ -56,30 +54,24 @@
                   </div>
                   <div class="row">
                     <div class="col-md-2"> </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-bottom:20px;">
                       <img height = "300" width = "300" valign="middle" :src="`../../../../static/img/people/AnthaniKrishna.jpg`">
                       <p>Anthani Krishna - Servicemax CPO and co-founder thru $1B acquisition by GE Digital </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-bottom:20px;">
                       <img height = "300" width = "300" valign="middle" :src="`../../../../static/img/people/shruti-new.jpg`">
                       <p>Shruti Gandhi - Engineer and Investor at Array Ventures</p>
                     </div>
                     <div class="col-md-2"> </div>
                   </div>
                 </div>
-                <div class = "buttonAlign"> 
-                  <button class = "button" onclick="window.location.href = 'https://arrayventures.typeform.com/to/nRIVdL';"> Apply here </button>
-                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row exits">
-          <div class="col-xs-12">
-            <h2>Recent Academies</h2>
-          </div>
-        </div>
+        <hr>
+        <br>
 
         <div class="row">
 
@@ -112,12 +104,14 @@
                 <p>Peter Reinhardt - Peter Reinhardt is CEO and co-founder of Segment. He studied Aerospace Engineering at MIT and fell into the world of customer data and analysis when he started the company with three college friends. Segment was part of Y Combinator in the summer of 2011 and has raised a Series B from Thrive and Accel. Segment&rsquo;s core product is a clean API for collecting customer data and a platform for partners to build on top of that data.</p>
 
                 <p>Peter Fishman - Peter Fishman is the Chief Strategy Officer at Eaze, a leading technology platform in the cannabis space. Before that he headedAnalytics at Opendoor, a leading home buyer/seller. Previously he was VP of Growth at Zenefits, the all-in-one HR solution, and Director of Analytics at Yammer, the enterprise social network acquired by Microsoft. Prior to joining Yammer he worked at Playdom/Disney and as a statistician for the Philadelphia Eagles. He holds a Ph.D. in economics from UC Berkeley. </p>
-                <br> <br>
+                <br> 
               </div>
             </div>
           </div>
-
-
+        </div>
+        <hr>
+        <br>
+        <div class="row">
           <div class="col-md-12">
             <div class="logo-wrapper">
               <span class="helper"></span><img valign="middle" :src="`../../../../static/img/bootcamps/Secrets.jpg`"/>

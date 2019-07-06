@@ -52,6 +52,18 @@ export default {
     return {
       investments: [
         {
+          name: 'Almanac',
+          link: 'https://askalmanac.com/',
+          image: 'almanac.png',
+          description: 'Automated professional assistant',
+        },
+        {
+          name: 'Liftlab',
+          link: 'https://liftlab.com/',
+          image: 'liftlab.png',
+          description: 'Media experimentation and analytics',
+        },
+        {
           name: 'Dyneti',
           link: 'https://dyneti.com/',
           image: 'dyneti.png',
