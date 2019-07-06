@@ -4,8 +4,10 @@
         <span class="helper"></span><img valign="middle" :src="`../../../../static/img/bootcamps/${bootcamp.image}`"/>
         <div><h2> {{ bootcamp.name }} </h2></div>
         <div class="description">
-          {{ bootcamp.description }} <a :href="`${bootcamp.readMore} ../../../../static/img/bootcamps/${bootcamp.readMore}`" download> Read More </a>
-          <br> <br>
+          <p>
+            {{ bootcamp.description }} <a :href="`${bootcamp.readMore} ../../../../static/img/bootcamps/${bootcamp.readMore}`" download> Read More </a>
+            <br> <br>
+          </p> 
           <button class = "button"><a :href="`${bootcamp.link}`"> Apply here </a></button>
         </div>
       </div>
