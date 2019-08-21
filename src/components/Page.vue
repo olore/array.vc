@@ -3,9 +3,13 @@
   <div>
     <main>
 
-      <header>
-        <img align="center" src="../../static/img/arrayvcsimplelogo.png" alt="Array Ventures" />
-        <navigation :page="page"></navigation>
+      <header> 
+        <img src="../../static/img/arrayvcsimplelogo.png" alt="Array Ventures" />
+        <div class="row">
+          <div class="col-lg-12" style="content-align: center;">
+            <navigation :page="page"></navigation>
+          </div>
+        </div>
       </header>
 
       <slot name="content"></slot>

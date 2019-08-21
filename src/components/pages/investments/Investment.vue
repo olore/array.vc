@@ -1,14 +1,13 @@
 <template>
-  <a :href="`${investment.link}`">
+  
     <div class="col-md-3 col-sm-4 outline">
       <div class="logo-wrapper">
         <span class="helper"></span><img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`"/>
         <div class="description">
-          {{ investment.description }}
+          {{ investment.description }}. <a :href="`${investment.link}`"> Visit. </a>
         </div>
       </div>
     </div>
-  </a>
 </template>
 
 <script>

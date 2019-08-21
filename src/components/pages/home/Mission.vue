@@ -1,7 +1,7 @@
 <template>
   <section>
     <section class="module parallax parallax-1">
-      <div class="x-container">
+      <div class="x-container" style="margin-top:-50px;">
         <h1>Mission</h1>
       </div>
     </section>
