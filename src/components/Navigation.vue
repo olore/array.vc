@@ -34,6 +34,16 @@ export default {
   margin-top: 20px;
 }
 
+ @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : portrait) {
+
+    .nav {
+      height: 60px; /* handle 2 lines of nav on mobile*/
+    }
+}
+
 a, a:hover {
   white-space: nowrap;
   text-decoration: none;
