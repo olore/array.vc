@@ -1,10 +1,21 @@
 <template>
   <page page="investments">
-    <section
-      slot="content"
-      class="content"
-    >
+    <section slot="content" class="content">
+
       <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Our Exits</h1>
+          </div>
+        </div>
+
+        <div class="row exits">
+          <investment v-for="inv in exits"
+                      :key="inv.name"
+                      :investment="inv"
+          />
+        </div>
+
         <div class="row">
           <div class="col-xs-12">
             <h1>Our investments</h1>
@@ -12,24 +23,9 @@
         </div>
 
         <div class="row">
-          <investment
-            v-for="inv in investments"
-            :key="inv.name"
-            :investment="inv"
-          />
-        </div>
-
-        <div class="row exits">
-          <div class="col-xs-12">
-            <h1>Our Exits</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <investment
-            v-for="inv in exits"
-            :key="inv.name"
-            :investment="inv"
+          <investment v-for="inv in investments"
+                      :key="inv.name"
+                      :investment="inv"
           />
         </div>
       </div>
@@ -51,6 +47,18 @@ export default {
   data() {
     return {
       investments: [
+        {
+          name: 'Uniform',
+          link: 'https://uniform.dev',
+          image: 'uniform.png',
+          description: 'Uniform helps connect your existing digital marketing stack',
+        },
+        {
+          name: 'EraDB',
+          link: 'http://eradb.com/',
+          image: 'eradb.png',
+          description: 'A time-series database built for machine learning and anomaly detection',
+        },
         {
           name: 'Almanac',
           link: 'https://askalmanac.com/',
@@ -124,12 +132,6 @@ export default {
           description: 'For radiology groups and companies',
         },
         {
-          name: 'Merkle Data',
-          link: 'http://merkledata.io',
-          image: 'merkle.png',
-          description: 'Reinventing data for blockchains and cryptos',
-        },
-        {
           name: 'Stronghold.co',
           link: 'http://stronghold.co',
           image: 'stronghold.png',
@@ -142,9 +144,9 @@ export default {
           description: 'Painless Stormwater compliance',
         },
         {
-          name: 'SeriesX',
-          link: 'http://seriesx.net',
-          image: 'seriesx.png',
+          name: 'Vertalo',
+          link: 'https://www.vertalo.com',
+          image: 'vertalo.png',
           description: 'The future of work',
         },
         {
@@ -152,12 +154,6 @@ export default {
           link: 'https://www.linkedin.com/company-beta/18089693/',
           image: 'zendar.png',
           description: 'Self-driving Radar/ML company',
-        },
-        {
-          name: 'Passage AI',
-          link: 'http://www.passageai.com',
-          image: 'passage-ai.png',
-          description: 'Passage AI - Conversational AI platform',
         },
         {
           name: 'Openprise',
@@ -190,12 +186,6 @@ export default {
           description: 'OS for event planning',
         },
         {
-          name: 'Nomiku',
-          link: 'http://nomiku.com',
-          image: 'nomiku.png',
-          description: 'Home Sous vide',
-        },
-        {
           name: 'Leapfin',
           link: 'http://leapfin.com',
           image: 'leapfin.png',
@@ -206,12 +196,6 @@ export default {
           link: 'http://placer.io',
           image: 'placer.png',
           description: 'Insights on foot traffic',
-        },
-        {
-          name: 'Tax Joy',
-          link: 'http://taxjoy.com',
-          image: 'taxjoy.png',
-          description: 'CRM for accountants',
         },
         {
           name: 'Mad Street Den',
@@ -238,9 +222,9 @@ export default {
           description: 'Crowdsourced research for C-level execs',
         },
         {
-          name: 'Drive Motors',
-          link: 'http://drivemotors.com',
-          image: 'drive-motors.png',
+          name: 'Modal',
+          link: 'https://modalup.com/',
+          image: 'modal.png',
           description: 'Stripe for auto dealers',
         },
         {
@@ -256,12 +240,6 @@ export default {
           description: 'Enterprise Podcast Platform',
         },
         {
-          name: 'Managed By Q',
-          link: 'http://managedbyq.com',
-          image: 'managed-by-q.png',
-          description: 'On-demand Office Services',
-        },
-        {
           name: 'Zecops',
           link: 'https://zecops.com/',
           image: 'zecops.png',
@@ -269,6 +247,12 @@ export default {
         },
       ],
       exits: [
+        {
+          name: 'Passage AI',
+          link: 'http://www.passageai.com',
+          image: 'passage-ai.png',
+          description: 'Passage AI - Conversational AI platform',
+        },
         {
           name: 'Hivy',
           link: 'http://www.hivyapp.com',
@@ -280,12 +264,6 @@ export default {
           link: 'https://simility.com',
           image: 'simility.png',
           description: 'AI/ML fraud management',
-        },
-        {
-          name: 'Mobilize',
-          link: 'https://mobilize.io',
-          image: 'mobilize.png',
-          description: 'Community Management Platform',
         },
       ],
     };
@@ -302,7 +280,7 @@ export default {
   }
 
   .exits {
-    margin-top: 20px;
+    padding-bottom: 40px;
   }
 
   @media only screen
