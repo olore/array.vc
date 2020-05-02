@@ -1,32 +1,40 @@
 <template>
-    <div class="col-md-12">
-      <div class="logo-wrapper">
-        <span class="helper"></span><img valign="middle" :src="`../../../../static/img/bootcamps/${bootcamp.image}`"/>
-        <div><h2> {{ bootcamp.name }} </h2></div>
-        <div class="description">
-          <p>
-            {{ bootcamp.description }} <a :href="`${bootcamp.readMore} ../../../../static/img/bootcamps/${bootcamp.readMore}`" download> Read More </a>
-            <br> <br>
-          </p> 
-          <button class = "button"><a :href="`${bootcamp.link}`"> Apply here </a></button>
-        </div>
+  <div class="col-md-12">
+    <div class="logo-wrapper">
+      <span class="helper" /><img
+        valign="middle"
+        :src="`../../../../static/img/bootcamps/${bootcamp.image}`"
+      >
+      <div><h2> {{ bootcamp.name }} </h2></div>
+      <div class="description">
+        <p>
+          {{ bootcamp.description }} <a
+            :href="`${bootcamp.readMore} ../../../../static/img/bootcamps/${bootcamp.readMore}`"
+            download
+          > Read More </a>
+          <br> <br>
+        </p>
+        <button class="button">
+          <a :href="`${bootcamp.link}`"> Apply here </a>
+        </button>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'bootcamp',
-    props: ['bootcamp'],
-    data() {
-      return {
-        displayDescription: false,
-        toggleDescription: () => {
-          this.displayDescription = !this.displayDescription;
-        },
-      };
-    },
-  };
+export default {
+  name: 'Bootcamp',
+  props: ['bootcamp'],
+  data() {
+    return {
+      displayDescription: false,
+      toggleDescription: () => {
+        this.displayDescription = !this.displayDescription;
+      },
+    };
+  },
+};
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

@@ -1,19 +1,19 @@
 <template>
   <div>
     <div class="person">
-      <!--<a :href="`#/team/${person.id}`">-->
-        <img :src="`./static/img/people/${person.id}-circle-280.png`" :alt="`${person.id} photo`" />
-        <h4>{{ person.name }}</h4>
-        <h5>{{ person.title }}</h5>
-      <!--</a>-->
+      <img
+        :src="`./static/img/people/${person.id}-circle-280.png`"
+        :alt="`${person.id} photo`"
+      >
+      <h4>{{ person.name }}</h4>
+      <h5>{{ person.title }}</h5>
     </div>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: 'person',
+  name: 'Person',
   props: ['person'],
   data() {
     return {

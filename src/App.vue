@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ require('../static/css/bootstrap.min.css');
 // require('../static/css/bootstrap-theme.min.css');
 
 export default {
-  name: 'app',
+  name: 'App',
 };
 </script>
 

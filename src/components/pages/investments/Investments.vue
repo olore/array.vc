@@ -1,8 +1,10 @@
 <template>
   <page page="investments">
-    <section slot="content" class="content">
+    <section
+      slot="content"
+      class="content"
+    >
       <div class="container">
-
         <div class="row">
           <div class="col-xs-12">
             <h1>Our investments</h1>
@@ -10,12 +12,11 @@
         </div>
 
         <div class="row">
-
-          <investment v-for="inv in investments"
-                      :investment="inv"
-                      :key="inv.name"
-          ></investment>
-
+          <investment
+            v-for="inv in investments"
+            :key="inv.name"
+            :investment="inv"
+          />
         </div>
 
         <div class="row exits">
@@ -25,12 +26,11 @@
         </div>
 
         <div class="row">
-
-          <investment v-for="inv in exits"
-                      :investment="inv"
-                      :key="inv.name"
-          ></investment>
-
+          <investment
+            v-for="inv in exits"
+            :key="inv.name"
+            :investment="inv"
+          />
         </div>
       </div>
     </section>
@@ -42,7 +42,7 @@ import Page from '../../Page';
 import Investment from './Investment';
 
 export default {
-  name: 'investments',
+  name: 'Investments',
   components: {
     page: Page,
     investment: Investment,

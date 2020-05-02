@@ -1,24 +1,27 @@
 <template>
-
   <div>
     <main>
-
-      <header> 
-        <img src="../../static/img/arrayvcsimplelogo.png" alt="Array Ventures" />
+      <header>
+        <img
+          src="../../static/img/arrayvcsimplelogo.png"
+          alt="Array Ventures"
+        >
         <div class="row">
-          <div class="col-lg-12" style="content-align: center;">
-            <navigation :page="page"></navigation>
+          <div
+            class="col-lg-12"
+            style="content-align: center;"
+          >
+            <navigation :page="page" />
           </div>
         </div>
       </header>
 
-      <slot name="content"></slot>
+      <slot name="content" />
     </main>
 
     <footer class="x-container">
-      <div class="asides clearfix"> </div>
+      <div class="asides clearfix" />
     </footer>
-
   </div>
 </template>
 
@@ -26,7 +29,7 @@
 import Navigation from './Navigation';
 
 export default {
-  name: 'hello',
+  name: 'Hello',
   components: {
     navigation: Navigation,
   },

@@ -1,39 +1,56 @@
 <template>
   <page page="podcasts">
-    <section slot="content" class="content">
+    <section
+      slot="content"
+      class="content"
+    >
       <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>[Array] Podcast</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>[Array] Podcast</h1>
+          </div>
         </div>
-      </div>
-      <h3 class="center">
-        Hacks on AI/ML and data from successful founders and investors
-      </h3>
-      <div class="row" style="padding-bottom: 10px">
-        <div class="col-xs-12 col-sm-2 col-sm-offset-3">
-          <a href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2" 
-            style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
+        <h3 class="center">
+          Hacks on AI/ML and data from successful founders and investors
+        </h3>
+        <div
+          class="row"
+          style="padding-bottom: 10px"
+        >
+          <div class="col-xs-12 col-sm-2 col-sm-offset-3">
+            <a
+              href="https://itunes.apple.com/us/podcast/array-podcast/id1215062660?mt=2"
+              style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"
+            />
+          </div>
+          <div class="col-xs-12 col-sm-2">
+            <a
+              href="http://www.stitcher.com/s?fid=179223&refid=stpr"
+              class="stitcher"
+            />
+          </div>
+          <div class="col-xs-12 col-sm-2">
+            <a
+              href="https://www.breaker.audio/array-podcast"
+              class="breaker"
+            />
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-2">
-          <a href="http://www.stitcher.com/s?fid=179223&refid=stpr"
-            class="stitcher"
-          ></a>
-        </div>
-        <div class="col-xs-12 col-sm-2">
-          <a href="https://www.breaker.audio/array-podcast"
-            class="breaker"></a>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-xs-1"></div>
-        <div class="col-xs-10">
-          <iframe scrolling="no" frameborder="0" style="width:100%;height:600px;border:0;overflow:hidden;" 
-            width="100%" height="180" src="https://art19.com/shows/69737c5a-bef1-46cb-9aee-125716ca9b1f/embed?playlist_type=playlist&playlist_size=10"></iframe>
+        <div class="row">
+          <div class="col-xs-1" />
+          <div class="col-xs-10">
+            <iframe
+              scrolling="no"
+              frameborder="0"
+              style="width:100%;height:600px;border:0;overflow:hidden;"
+              width="100%"
+              height="180"
+              src="https://art19.com/shows/69737c5a-bef1-46cb-9aee-125716ca9b1f/embed?playlist_type=playlist&playlist_size=10"
+            />
+          </div>
+          <div class="col-xs-1" />
         </div>
-        <div class="col-xs-1"></div>
-      </div>
       </div>
     </section>
   </page>
@@ -43,7 +60,7 @@
 import Page from '../Page';
 
 export default {
-  name: 'podcasts',
+  name: 'Podcasts',
   components: {
     page: Page,
   },

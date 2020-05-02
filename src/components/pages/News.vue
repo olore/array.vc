@@ -1,7 +1,7 @@
 <template>
   <page page="news">
     <div slot="content">
-      <press></press>
+      <press />
     </div>
   </page>
 </template>
@@ -11,7 +11,7 @@ import Page from '../Page';
 import Press from './news/Press';
 
 export default {
-  name: 'news',
+  name: 'News',
   components: {
     page: Page,
     press: Press,

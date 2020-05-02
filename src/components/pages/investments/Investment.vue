@@ -1,29 +1,31 @@
 <template>
-  
-    <div class="col-md-3 col-sm-4 outline">
-      <div class="logo-wrapper">
-        <span class="helper"></span><img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`"/>
-        <div class="description">
-          {{ investment.description }}. <a :href="`${investment.link}`"> Visit. </a>
-        </div>
+  <div class="col-md-3 col-sm-4 outline">
+    <div class="logo-wrapper">
+      <span class="helper" /><img
+        valign="middle"
+        :src="`../../../../static/img/portfolio/${investment.image}`"
+      >
+      <div class="description">
+        {{ investment.description }}. <a :href="`${investment.link}`"> Visit. </a>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'investment',
-    props: ['investment'],
-    data() {
-      return {
-        displayDescription: false,
-        toggleDescription: () => {
-          this.displayDescription = !this.displayDescription;
-        },
-      };
-    },
+export default {
+  name: 'Investment',
+  props: ['investment'],
+  data() {
+    return {
+      displayDescription: false,
+      toggleDescription: () => {
+        this.displayDescription = !this.displayDescription;
+      },
+    };
+  },
 
-  };
+};
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

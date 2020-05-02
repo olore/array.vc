@@ -1,12 +1,18 @@
 <template>
   <page>
-    <div slot="content" class="container svg">
-
+    <div
+      slot="content"
+      class="container svg"
+    >
       <h2>Lucas Baker</h2>
 
       <div class="row">
         <div class="col-xs-12 col-sm-4 photo">
-          <img height="200" src="../../../static/img/people/lucas-circle-280.png" alt="Lucas Baker"/>
+          <img
+            height="200"
+            src="../../../static/img/people/lucas-circle-280.png"
+            alt="Lucas Baker"
+          >
         </div>
 
         <div class="col-xs-12 col-sm-8 content">
@@ -15,21 +21,22 @@
           technical and the business aspects of the industry. He has worked at a number of Silicon Valley's
           top companies, including Square, Pinterest, and Google. He also co-founded the developer recruiting
           site Hackermeter (YC S13), which was acquired by Pinterest.
-          <br/> <br/>
+          <br> <br>
           Lucas's principal specialties include artificial intelligence, machine learning, big data analysis,
           and data visualization. He holds a B.S. degree in Computer Science from Stanford, where he was also a
           recipient of the prestigious Terman award.
-          <br/> <br/>
+          <br> <br>
           When not thinking about tech, startups, and the future, he is almost certainly playing Go.
 
-          <br> <br/>
+          <br> <br>
 
-          <a class="webicon linkedin large" href="https://www.linkedin.com/pub/tesuji">LinkedIn</a>
-
+          <a
+            class="webicon linkedin large"
+            href="https://www.linkedin.com/pub/tesuji"
+          >LinkedIn</a>
         </div>
       </div>
     </div>
-
   </page>
 </template>
 
@@ -37,7 +44,7 @@
 import Page from '../Page';
 
 export default {
-  name: 'lucas',
+  name: 'Lucas',
   components: {
     page: Page,
   },
