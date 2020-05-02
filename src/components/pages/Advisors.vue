@@ -1,8 +1,9 @@
 <template>
   <page page="advisors">
-
-    <section slot="content" class="container">
-
+    <section
+      slot="content"
+      class="container"
+    >
       <div class="row">
         <div class="col-xs-12">
           <h2>Our Team</h2>
@@ -27,13 +28,14 @@
       </div>
 
       <div class="row">
-          <person class="col-xs-12 col-sm-3"
-                  v-for="person in filteredByField(people, field)"
-                  :person="person"
-                  :selected="selectPerson"
-                  :key="person.name"></person>
+        <person
+          v-for="person in filteredByField(people, field)"
+          :key="person.name"
+          class="col-xs-12 col-sm-3"
+          :person="person"
+          :selected="selectPerson"
+        />
       </div>
-
     </section>
   </page>
 </template>
@@ -43,7 +45,7 @@ import Person from '../Person';
 import Page from '../Page';
 
 export default {
-  name: 'advisors',
+  name: 'Advisors',
   components: {
     person: Person,
     page: Page,
@@ -83,12 +85,6 @@ export default {
           id: 'anthony',
           field: 'tech',
         },
-//        {
-//          name: 'Brian Olore',
-//          title: 'Tech Consultant',
-//          id: 'brian',
-//          field: 'tech',
-//        },
         {
           name: 'Dan Janney',
           title: 'Alta Partners',

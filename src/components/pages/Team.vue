@@ -1,8 +1,9 @@
 <template>
   <page page="team">
-
-    <section slot="content" class="container svg">
-
+    <section
+      slot="content"
+      class="container svg"
+    >
       <div class="row">
         <div class="col-xs-12">
           <h1>Our Team</h1>
@@ -11,17 +12,29 @@
 
       <div class="row">
         <div class="col-xs-12 subnav">
-          <h2>Team | <router-link to="advisors">Advisors</router-link></h2>
+          <h2>
+            Team | <router-link to="advisors">Advisors</router-link>
+          </h2>
         </div>
       </div>
 
       <div class="row vertical-align bio">
         <div class="col-xs-12">
-          <img class="center-block img-responsive" src="../../../static/img/people/shruti-new.jpg" alt="shruti photo" />
-          <br />
+          <img
+            class="center-block img-responsive"
+            src="../../../static/img/people/shruti-new.jpg"
+            alt="shruti photo"
+          >
+          <br>
           <div style="text-align: center">
-            <a class="webicon linkedin large" href="https://www.linkedin.com/in/shrutigandhi">LinkedIn</a>
-            <a class="webicon twitter large" href="https://twitter.com/atShruti">Twitter</a>
+            <a
+              class="webicon linkedin large"
+              href="https://www.linkedin.com/in/shrutigandhi"
+            >LinkedIn</a>
+            <a
+              class="webicon twitter large"
+              href="https://twitter.com/atShruti"
+            >Twitter</a>
           </div>
         </div>
       </div>
@@ -35,13 +48,13 @@
           <p class="text">
             Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage
             venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners, and the i2A Fund.
-            <br /> <br />
+            <br> <br>
             Shruti started working with Machine Learning algorithms while working on her master's thesis in computer
             science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM
             she worked on self learning algorithms that detected user location based on IP addresses, which she later
             incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections
             with their friends based on social data.
-            <br /> <br />
+            <br> <br>
             When not investing, she is hacking on some app or thinking about ways she can be in many places at one time.
             Shruti also has an MBA from the University of Chicago, where she polished her finance skills before making
             the switch from engineer/founder to investor.
@@ -51,8 +64,12 @@
 
       <div class="row vertical-align bio">
         <div class="col-xs-12">
-          <img class="center-block img-responsive" src="../../../static/img/people/Snehal-Antani.jpg" alt="Snehal photo" />
-          <br />
+          <img
+            class="center-block img-responsive"
+            src="../../../static/img/people/Snehal-Antani.jpg"
+            alt="Snehal photo"
+          >
+          <br>
         </div>
       </div>
 
@@ -63,9 +80,9 @@
             <h3>Venture Partner</h3>
           </div>
           <p class="text">
-            Snehal was a former CTO and Senior Vice President of IoT and Business Analytics of Splunk. 
-            He also served as Chief Information Officer for multiple divisions of GE Capital. 
-            Snehal was Private Cloud Strategist at IBM among various other roles. 
+            Snehal was a former CTO and Senior Vice President of IoT and Business Analytics of Splunk.
+            He also served as Chief Information Officer for multiple divisions of GE Capital.
+            Snehal was Private Cloud Strategist at IBM among various other roles.
             He holds a B.S. from Purdue University and an M.S. from Rensselaer Polytechnic Institute.
           </p>
         </div>
@@ -78,7 +95,7 @@
 import Page from '../Page';
 
 export default {
-  name: 'team',
+  name: 'Team',
   components: {
     page: Page,
   },

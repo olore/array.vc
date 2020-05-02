@@ -1,23 +1,21 @@
 <template>
   <page page="home">
     <div slot="content">
-      <mission></mission>
-      <disruption></disruption>
+      <mission />
+      <disruption />
     </div>
   </page>
 </template>
 
 <script>
 import Page from '../Page';
-import Press from './news/Press';
 import Disruption from './home/Disruption';
 import Mission from './home/Mission';
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     page: Page,
-    press: Press,
     mission: Mission,
     disruption: Disruption,
   },

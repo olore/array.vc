@@ -15,7 +15,6 @@
         <p>
           We provide access to over 200 C-level experts from top public and private companies to help startups from day one. Our experts come from every major company inside and outside of Silicon Valley, across the health, retail, education, security, SaaS, and communication industries.
         </p>
-
       </div>
     </section>
   </section>
@@ -24,7 +23,7 @@
 <script>
 
 export default {
-  name: 'disruption',
+  name: 'Disruption',
 //  props: ['page'],
 //  data() {
 //    return {
