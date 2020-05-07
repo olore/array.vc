@@ -40,5 +40,6 @@ module.exports = {
     'vue/require-prop-types': 0,
     'vue/singleline-html-element-content-newline': 0,
     'vue/max-attributes-per-line': 0,
+    'vue/multiline-html-element-content-newline': 0,
   }
 }

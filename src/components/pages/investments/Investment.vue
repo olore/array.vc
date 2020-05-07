@@ -1,14 +1,14 @@
 <template>
   <div class="col-md-3 col-sm-4 outline">
-    <div class="logo-wrapper">
-      <span class="helper" /><img
-        valign="middle"
-        :src="`../../../../static/img/portfolio/${investment.image}`"
-      >
-      <div class="description">
-        {{ investment.description }}. <a :href="`${investment.link}`"> Visit. </a>
+    <a :href="`${investment.link}`">
+      <div class="logo-wrapper">
+        <span class="helper" />
+        <img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`">
+        <div class="description">
+          {{ investment.description }}
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .row img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100px;
   }
   .helper {
@@ -41,7 +41,7 @@ export default {
   .outline {
     border: 1px solid darkgray;
     height: 120px;
-    margin: 25px !important;
+    margin: 35px !important;
   }
 
   .logo-wrapper {
