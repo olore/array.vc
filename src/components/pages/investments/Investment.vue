@@ -2,9 +2,8 @@
   <div class="col-md-3 col-sm-4 outline">
     <a :href="`${investment.link}`">
       <div class="logo-wrapper">
-        <span class="helper">
-          <img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`">
-        </span>
+        <span class="helper" />
+        <img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`">
         <div class="description">
           {{ investment.description }}
         </div>
@@ -31,7 +30,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .row img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100px;
   }
   .helper {
