@@ -99,7 +99,7 @@ export default {
           name: 'Productiv',
           link: 'http://productiv.com/',
           image: 'productiv.png',
-          description: 'Productiv',
+          description: 'SaaS Management Platform',
         },
         {
           name: 'casaone.com',
