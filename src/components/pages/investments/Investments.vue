@@ -96,10 +96,10 @@ export default {
           description: 'Automated Interview Scheduling',
         },
         {
-          name: 'Productiv.ai',
-          link: 'http://productiv.ai/',
+          name: 'Productiv',
+          link: 'http://productiv.com/',
           image: 'productiv.png',
-          description: 'Productiv.ai',
+          description: 'Productiv',
         },
         {
           name: 'casaone.com',
