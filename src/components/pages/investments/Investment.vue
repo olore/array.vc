@@ -29,6 +29,10 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  a:hover {
+    text-decoration: none;
+  }
+
   .row img {
     max-width: 90%;
     max-height: 100px;
