@@ -48,6 +48,12 @@ export default {
     return {
       investments: [
         {
+          name: 'Blumira',
+          link: 'https://www.blumira.com/',
+          image: 'bluemira.svg',
+          description: 'Automated threat detection & response',
+        },
+        {
           name: 'Uniform',
           link: 'https://uniform.dev',
           image: 'uniform.png',
