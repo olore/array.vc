@@ -62,9 +62,10 @@
                         height="300"
                         width="300"
                         valign="middle"
+                        class="speakerimg"
                         src="../../../../static/img/people/JudyLoehr.jpg"
                       >
-                      <p>Judy Loehr - Enterprise SaaS Executive, Original Salesforce PM, Zuora, ServiceMax</p>
+                      <p class="names">Judy Loehr - Enterprise SaaS Executive, Original Salesforce PM, Zuora, ServiceMax</p>
                     </div>
                     <div
                       class="col-md-4"
@@ -74,9 +75,10 @@
                         height="300"
                         width="300"
                         valign="middle"
+                        class="speakerimg"
                         src="../../../../static/img/people/MonikaSaha.png"
                       >
-                      <p>Monica Saha - Delphix CMO, Employee #11 at Zuora thru IPO</p>
+                      <p class="names">Monica Saha - Delphix CMO, Employee #11 at Zuora thru IPO</p>
                     </div>
                     <div class="col-md-2" />
                   </div>
@@ -90,9 +92,10 @@
                         height="300"
                         width="300"
                         valign="middle"
+                        class="speakerimg"
                         src="../../../../static/img/people/AnthaniKrishna.jpg"
                       >
-                      <p>Anthani Krishna - Servicemax CPO and co-founder thru $1B acquisition by GE Digital </p>
+                      <p class="names">Anthani Krishna - Servicemax CPO and co-founder thru $1B acquisition by GE Digital </p>
                     </div>
                     <div
                       class="col-md-4"
@@ -102,9 +105,10 @@
                         height="300"
                         width="300"
                         valign="middle"
+                        class="speakerimg"
                         src="../../../../static/img/people/shruti-new.jpg"
                       >
-                      <p>Shruti Gandhi - Engineer and Investor at Array Ventures</p>
+                      <p class="names">Shruti Gandhi - Engineer and Investor at Array Ventures</p>
                     </div>
                     <div class="col-md-2" />
                   </div>
@@ -239,12 +243,13 @@ export default {
   }
 
   .row img {
-    max-width: 90%;
+    max-width: 100%;
     max-height: 400px;
   }
+
   .helper {
     display: inline-block;
-    height: 100%;
+    height: auto;
     vertical-align: middle;
   }
   .outline {
@@ -254,9 +259,19 @@ export default {
   }
 
   .logo-wrapper {
-    height: 100%;
+    height: auto;
     text-align: center;
     margin: 20px
+  }
+
+  .names {
+    text-align: center;
+    font-weight: normal;
+    margin: 4px 10px !important;
+  }
+
+  .speakerimg {
+    margin: 4px 15px !important;
   }
 
   .description {
@@ -288,14 +303,4 @@ export default {
     text-align: center;
   }
 
-  @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 568px)
-  and (orientation : portrait) {
-
-    .row img {
-      max-height: 60px;
-    }
-
-  }
 </style>
