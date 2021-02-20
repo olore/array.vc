@@ -48,6 +48,18 @@ export default {
     return {
       investments: [
         {
+          name: 'Shipyard',
+          link: 'https://shipyard.build/',
+          image: 'shipyard.png',
+          description: 'Environment management and release automation',
+        },
+        {
+          name: 'Intentomatic',
+          link: 'https://www.intentomatic.com/',
+          image: 'intentomatic.png',
+          description: 'SDR dashboard',
+        },
+        {
           name: 'Blumira',
           link: 'https://www.blumira.com/',
           image: 'bluemira.svg',
