@@ -4,7 +4,7 @@ import Router from 'vue-router';
 import Advisors from '@/components/pages/Advisors';
 import Home from '@/components/pages/Home';
 import Investments from '@/components/pages/investments/Investments';
-import BootCamps from '@/components/pages/bootcamps/BootCamps';
+import Growth from '@/components/pages/growth/Growth';
 import Podcasts from '@/components/pages/Podcasts';
 import Team from '@/components/pages/Team';
 import News from '@/components/pages/News';
@@ -32,9 +32,9 @@ const router = new Router({
       component: Investments,
     },
     {
-      path: '/bootcamps',
-      name: 'BootCamps',
-      component: BootCamps,
+      path: '/growth',
+      name: 'Growth',
+      component: Growth,
     },
     {
       path: '/news',
@@ -46,7 +46,6 @@ const router = new Router({
       name: 'podcasts',
       component: Podcasts,
     },
-
     {
       path: '/advisors/:field?',
       name: 'Advisors',
