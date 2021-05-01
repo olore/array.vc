@@ -48,6 +48,18 @@ export default {
     return {
       investments: [
         {
+          name: 'Cast',
+          link: 'https://cast.app',
+          image: 'cast-app.svg',
+          description: 'Digital Customer Success',
+        },
+        {
+          name: 'Tumble',
+          link: 'https://www.tumble.to/',
+          image: 'tumble.png',
+          description: 'Smart Commercial Laundry',
+        },
+        {
           name: 'Shipyard',
           link: 'https://shipyard.build/',
           image: 'shipyard.png',
@@ -229,7 +241,7 @@ export default {
         },
         {
           name: 'Solugen',
-          link: 'http://www.solugen.co',
+          link: 'https://www.solugentech.com/',
           image: 'solugen.png',
           description: 'Plant based hydrogen peroxide',
         },
