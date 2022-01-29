@@ -62,31 +62,6 @@
         </div>
       </div>
 
-      <div class="row vertical-align bio">
-        <div class="col-xs-12">
-          <img
-            class="center-block img-responsive"
-            src="../../../static/img/people/Snehal-Antani.jpg"
-            alt="Snehal photo"
-          >
-          <br>
-        </div>
-      </div>
-
-      <div class="row vertical-align bio">
-        <div class="col-xs-12">
-          <div class="name">
-            <h1>Snehal Antani</h1>
-            <h3>Venture Partner</h3>
-          </div>
-          <p class="text">
-            Snehal was a former CTO and Senior Vice President of IoT and Business Analytics of Splunk.
-            He also served as Chief Information Officer for multiple divisions of GE Capital.
-            Snehal was Private Cloud Strategist at IBM among various other roles.
-            He holds a B.S. from Purdue University and an M.S. from Rensselaer Polytechnic Institute.
-          </p>
-        </div>
-      </div>
     </section>
   </page>
 </template>

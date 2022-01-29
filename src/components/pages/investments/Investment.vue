@@ -6,6 +6,9 @@
         <img valign="middle" :src="`../../../../static/img/portfolio/${investment.image}`">
         <div class="description">
           {{ investment.description }}
+          <div :v-if="investment.exit !== undefined">
+            {{ investment.exit }}
+          </div>
         </div>
       </div>
     </a>
